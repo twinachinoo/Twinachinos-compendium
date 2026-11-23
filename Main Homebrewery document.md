@@ -1051,24 +1051,35 @@ I 'm not the biggest fan of 2024 UA psion. Their multiple-scaling dice mechanic 
 ## class features
 The 2024 psion's class features are a little all over the place, but it's entirely rescuable. Certain features will be tweaked slightly, and additional small features will be added, to make class progression more satisfying. The psion has very poor resource economy, the class is constantly starved for resources - having to spend multiple resources just to achieve one outcome. Their subclasses show this clearly: an entire subclass feature, that still requires consuming spell slots and psionic energy die. 
 
-
 #### energy dice progression
-The existing progression is a bit awkward. I get what they were going for, but is it really that hard to design a linear increase in resources gained? Now it's a smooth progression where either: dice size increases, or you gain more dice. Instead of some levels having both, and others having nothing, leading to a very strange levelling pattern. **they do not gain any more dice than vanilla, just gain them earlier de to this pattern.** 
+The existing progression is a bit awkward. Made to be as linear  as possible whilst accounting for power spikes at levels 5, 11, 17. Now it's a smooth progression where either: dice size increases, or you gain more dice. **they do not gain any more dice than vanilla, just gain them earlier due to this pattern. A net buff.** 
 #### psionic restoration
 Reworked to be the psion equivalent of the 2024 monk’s Focus recovery: it restores only expended Psionic Energy Dice, not spell slots. It should come online early, at level 2. A small amount of healing also helps the class’s d6 hit dice.
 
 #### psionic power
 Psions are starved for their psionic energy die. Tying their level 1 core features to a random roll on a dice - one of your very few dice, by the way, seems like too many steps for little reward. Telepathy has been standrdized to level x 10, *for free*, and telekinetic propel is enhanced so it can be used as an action or bonus action, and the dice roll's push now scales with your PB.
 
+#### sitllness of mind
+The OG monk's stillness of mind. Buffed so now you can just end the effect at the start of the turn. bard's countercharm got buffed, these two features are very similar at the same level.
 \column
 
 ### new spells (psionic spells)
-With many of these campaign settings including users of psionics, these are some additional abilities avaliable to them. Currently, these are made to resemble spells, but may be moved into their own system later, depending on which iteration of the psion or mystic class is being used during a campaign.
+With many of these campaign settings including users of psionics, these are some additional abilities avaliable to them. Currently, these are made to resemble spells, but may be moved into their own system later, depending on which iteration of the psion or mystic class is being used during a campaign. They're not reliant on 24 UA psion.
 
 #### combat capabilities
 Most of these are options designed to enhance their combat capabilities. They are quite powerful, offering good damage and strong control, but they never get a fireball-level of raw power. They should get something in their psionic niche, like disrupting concentration, exploiting the weak *intelligence* save, or inflicting madness. 
 
-## subclasses
+### psionic disciplines
+Honestly all pretty cool, only 1or 2 need real reworking to become actually viable choices. Also, 
+
+Whenever you gain a Psion level, you can replace
+one of your Psionic Discipline options with one you
+don’t know. You gain one additional option at Psion
+levels 5, **9** (original, 10), 13, and 17. level 10 is already a subclass feature level.
+
+
+\page
+## subclass features and commentary
 
 ### psykinetic
 The psykinetic's subclass features are awkward, convoluted modifications of existing spells. Now, they all follow the same principle: you can cast x spell with y number of dice, and the y number of dice are rolled to enhance the spell, instead of purely being a cost. Furthermore, they get a genuinely good second capstone at level 14.
@@ -1076,16 +1087,7 @@ The psykinetic's subclass features are awkward, convoluted modifications of exis
 these subclass features relied on spells two spell levels lower than the psion had access to at that level without much upside. A major appeal is **they're cheaper to cast with dice**, telekinetic crush is a 3rd level spell cast with 2 die, and telekinesis is a 5th level spell costing 4 dice to cast. Efficient. Shield is already 1 die, but it also deals some damage whilst being, well, shield. 
 :
 Wording improved also, after "you can cast x spell with y dice. the original text states "when you cast x without expending a spell slot using this feature" --> "this way". Concision.
-
-### telepath
-Overral decent, some features changed to reduce psionic energy die overreliance. And since their base telepathy is better, their 6th level feature simply buffs it.
-
-### metamorph
-just needs more surviability.
-Literally just took draconic sorcerer's AC calculation. I've chosen to refrain from also giving max HP, as their other features grant Temp HP. Also, cleaned up wording and mechanical consistency.
-\page
-
-## subclass features 
+ 
 #### level 3: rebounding shield
 A 6th level subclass feature built on a 1st level spell. This is now a **3rd level subclass feature**. The original rebounding shield had you casting shield, the attacker take some damage, and you gain temporary hitpoints. absolutely insane. Net nerf, but gained earlier.
 
@@ -1099,6 +1101,8 @@ The spell the subclass is basically all about, gained 4 levels earlier so you mi
 Now that their capstone is gone, what do we give them? How about permenant destructive state? Permenant flight, and an additional energy die on all of their damage. An appreciated buff, and a simple capstone.
 
 \column
+### telepath
+Overral decent, some features changed to reduce psionic energy die overreliance. And since their base telepathy is better, their 6th level feature simply buffs it.
 
 #### level 3: mind infiltrator
 This costs a full 2nd level spell slot and a psionic energy die. And that's the entire subclass feature. Are we noticing a pattern? detect thoughts is a great spell, but a subclass dedicated to telepathy should be able to do it at little cost.
@@ -1107,11 +1111,17 @@ This costs a full 2nd level spell slot and a psionic energy die. And that's the 
 just adds +60feet to your telepathy. Again, already gain base telepathy for free.
 
 ### metamorph
+just needs more surviability.
+Literally just took draconic sorcerer's AC calculation. I've chosen to refrain from also giving max HP, as their other features grant Temp HP. Also, cleaned up wording and mechanical consistency.
+
 #### level 3: Morphic shell
 Said above under "subclasses" header.
 
 #### level 3: organic weapons
 worded incredibly weirdly. take an action to shape your hand, but make it free (?) if you're taking the attack action? standardized into a bonus action for everything.
+
+### psionic disciplines
+A whole dice, and a whole discipline, to gain immunity to effects you might not even be targeted with. psionic guards is beyond niche, this feels like old bard countercharm. They gain the old stillness of mind now at level 7, so this disciplne is near useless. It is to be reworked soon.
 
 \page
 
@@ -1159,6 +1169,8 @@ and the distance moved equals 5 times your proficiency bonus. The die is expende
 **Telepathic Connection.** You have telepathy with a
 range of feet equal to 10 times your psion level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.
 
+### level 7: stillness of mind
+Starting at 7th level, you can remove one of the following conditions from yourself at the end of each of your turns: Charmed, Frightened, confused (via the *confusion* spell).
 \page
 
 ## psykinetic
