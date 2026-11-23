@@ -237,16 +237,14 @@ they're also non-concentrationm meaning rangers might be able to do something wh
 - caustic arrow
 - smoldering arrow
 - pressurised gale
-- 
-##### 3rd level
-- primal shell
+
 
 }}
 
 
 ### druid
 
-Druid's spell list is already fantastic, and the only spells provided here are to offer them a little bit of blasting potential alongside control. *primal shell* spell gives them more direct options to buff a wildshape focused playstyle or a charmed beast.
+Druid's spell list is already fantastic, and the only spells provided here are to offer them a bit of blasting alongside control. *primal shell* spell gives them more direct options to buff a wildshape focused playstyle.
 
 #### Druid New Spells
 
@@ -531,21 +529,20 @@ You call down a silver pillar of moonlight that descends in a 20-foot-radius, 40
 **Components:**   :: S, M
 **Duration:**     :: 10 minutes (wind ball duration)
 
-You compress whirling winds into a pressurised vortex in a 10ft radius sphere centered on a point within range. Each creature within this area is pulled towards the center of the sphere, and must make a strength saving throw. On a failed save, they land prone.
+You compress whirling winds into a pressurised vortex in a 15ft radius sphere centered on a point within range. Each creature within this area is pulled towards the center of the sphere, and must make a strength saving throw. On a failed save, they land prone.
 :
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the vortex's radius increases by 10ft for each slot level above 1st.
+**At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the vortex's radius increases by 5ft for each slot level above 1st.
 
 #### primal shell 
-*3rd level abjuration (ranger, druid)*
+*3rd level abjuration (druid)*
 
 **Casting Time:** :: 1 bonus action
 **Range:**        :: touch
 **Components:**   :: V, S, M
 **Duration:**     :: 8 hours
 
-You touch a willing beast, and a dark-green aura of druidic magic shields them from harm. The creature's AC cannot be lower than 18, and their hitpoint maximum increases by 8. 
-:
-Alternatively, you touch a or a *wildshaped* or *polymorphed* creature. The creature's AC cannot be lower than 18, and the amount of temporary hitpoints they gain by being *wildshaped* or *polymorphed* increases by 8.
+you touch a or a *wildshaped* or *polymorphed* creature, and a dark-green aura of druidic magic shields them from harm. The creature's AC cannot be lower than 18, and the amount of temporary hitpoints they gain by being *wildshaped* or *polymorphed* increases by 8.
+
 
 \page
 
@@ -959,10 +956,7 @@ There's a lot to say about rogue, and that's because it's maybe my favourite cla
 #### ASI at level 6
 This is just an additional ASI, but it's impact is immense - early 20 dex, elven accuracy, etc. I've noticed some rogue players like to go all in on damage; even if not, other rogues may not want a second set of expertises at level 6 and prefer completing their build early. Expertise at level 9 the same as bard and ranger in 2024.
 #### critcality
-Criticality is a unique custom option, giving the class some on-demand nova capacity, but it moves away from the idea of the consistent martial striker they were in 2014. Mathematically, it comes out to about the same as d8 sneak attack - it's about giving more options over just doing strictly more damage.
-
-
-
+Criticality is a unique custom option. it's an appreciated damage increase, but ability to nova is the real selling point - dump 10d6 or 10d8 on someone you *Really*, really want dead. It gives a "pseudo auto crit" - allowing them to turn a sneak attack hit into a crit *after the attack lands*. 
 
 
 {{pageNumber,auto}}
@@ -981,10 +975,10 @@ At level 5, your sneak attacks become more decisive and deadly. Your sneak attac
 ### level 6: ASI [in use]
 At level 6, instead of gaining expertise in two skills, you may instead select an ASI or feat. You gain expertise in two skills at level 9 instead.
 
-### level 5: Criticality
-at level 5, You select precision over frequency. You gain a number of charges of **criticality** equal to your proficiency bonus. You regain all charges on a long rest.
+### level 9: Criticality [in use]
+You gain a unique resource known as criticality, and you gain an additional use of this feature at levels 13 and 17. You regain all charges of criticality on a long rest.
 :
-When you deal sneak attack damage, you can expend a charge of criticality to maximise the damage of your sneak attack die and your weapon. 
+When you hit a creature and are eligible to deal sneak attack damage, you can expend a charge of criticality to treat it as a critical hit.
 
 
 ## warlock 
@@ -1073,15 +1067,25 @@ With many of these campaign settings including users of psionics, these are some
 
 #### combat capabilities
 Most of these are options designed to enhance their combat capabilities. They are quite powerful, offering good damage and strong control, but they never get a fireball-level of raw power. They should get something in their psionic niche, like disrupting concentration, exploiting the weak *intelligence* save, or inflicting madness. 
-\page
 
-# subclass features
+## subclasses
 
 ### psykinetic
 The psykinetic's subclass features are awkward, convoluted modifications of existing spells. Now, they all follow the same principle: you can cast x spell with y number of dice, and the y number of dice are rolled to enhance the spell, instead of purely being a cost. Furthermore, they get a genuinely good second capstone at level 14.
 :
-these subclass features relied on spells two spell levels lower than the psion had access to at that level. So if you're really casting a low level spell at that point, it better be worth it. A **major appeal is they're cheapter to cast with dice**, telekinetic crush is a 3rd level spell cast with 2 die, and telekinesis is a 5th level spell costing 4 dice to cast. Efficient.
+these subclass features relied on spells two spell levels lower than the psion had access to at that level without much upside. A major appeal is **they're cheaper to cast with dice**, telekinetic crush is a 3rd level spell cast with 2 die, and telekinesis is a 5th level spell costing 4 dice to cast. Efficient. Shield is already 1 die, but it also deals some damage whilst being, well, shield. 
+:
+Wording improved also, after "you can cast x spell with y dice. the original text states "when you cast x without expending a spell slot using this feature" --> "this way". Concision.
 
+### telepath
+Overral decent, some features changed to reduce psionic energy die overreliance. And since their base telepathy is better, their 6th level feature simply buffs it.
+
+### metamorph
+just needs more surviability.
+Literally just took draconic sorcerer's AC calculation. I've chosen to refrain from also giving max HP, as their other features grant Temp HP. Also, cleaned up wording and mechanical consistency.
+\page
+
+## subclass features 
 #### level 3: rebounding shield
 A 6th level subclass feature built on a 1st level spell. This is now a **3rd level subclass feature**. The original rebounding shield had you casting shield, the attacker take some damage, and you gain temporary hitpoints. absolutely insane. Net nerf, but gained earlier.
 
@@ -1096,9 +1100,6 @@ Now that their capstone is gone, what do we give them? How about permenant destr
 
 \column
 
-### telepath
-Overral decent, some features changed to reduce psionic energy die overreliance. And since their base telepathy is better, their 6th level feature simply buffs it.
-
 #### level 3: mind infiltrator
 This costs a full 2nd level spell slot and a psionic energy die. And that's the entire subclass feature. Are we noticing a pattern? detect thoughts is a great spell, but a subclass dedicated to telepathy should be able to do it at little cost.
 
@@ -1106,13 +1107,11 @@ This costs a full 2nd level spell slot and a psionic energy die. And that's the 
 just adds +60feet to your telepathy. Again, already gain base telepathy for free.
 
 ### metamorph
-just needs more surviability.
-Literally just took draconic sorcerer's AC calculation. I've chosen to refrain from also giving hitpoints, as their other features grant Temp. HP.
+#### level 3: Morphic shell
+Said above under "subclasses" header.
 
-#### metamorph: level 3: Morphic shell
-Said above.
-
-
+#### level 3: organic weapons
+worded incredibly weirdly. take an action to shape your hand, but make it free (?) if you're taking the attack action? standardized into a bonus action for everything.
 
 \page
 
@@ -1166,7 +1165,7 @@ range of feet equal to 10 times your psion level. You don't need to share a lang
 ### level 6: rebounding shield
 
 You can cast telekinetic crush without expending a spell
-slot by instead expending a Psionic Energy Dice. When you cast shield without expending a spell slot using this feature, you can modify the spell so that you launch the
+slot by instead expending a Psionic Energy Dice. When you cast shield this way, you can modify the spell so that you launch the
 force back at the attacker. The attacker makes a
 Dexterity saving throw. Roll the Psionic Energy Die.
 On a failed save, the attacker takes Force damage
@@ -1175,7 +1174,7 @@ modifier, and half as much on a success.
 
 ### level 10: enhanced telekinetic crush
 You can cast telekinetic crush without expending a spell
-slot by instead expending two Psionic Energy Dice. When you cast telekinetic crush without expending a spell slot using this feature, you can modify the spell so that
+slot by instead expending two Psionic Energy Dice. When you cast telekinetic crush this way, you can modify the spell so that
 whether a creature fails or succeeds on the saving
 throw against the spell, its Speed is halved until the
 start of your next turn. In addition, you can roll the two
@@ -1184,8 +1183,7 @@ expended Psionic Energy Dice and add the number rolled to the spell's damage rol
 ### level 14: heightened telekineses
 You can cast Telekinesis without expending a spell
 slot by instead expending four Psionic Energy Dice.
-When you cast Telekinesis without expending a spell
-slot using this feature, you can modify the spell so
+When you cast Telekinesis this way, you can modify the spell so
 that it doesn’t require Concentration. If you do so,
 the spell’s duration becomes 1 minute for that
 casting, and and you can target Gargantuan creatures
@@ -1195,18 +1193,25 @@ and objects.
 You no longer need to expend an energy die to enter a destructive state. The benefits of that state are conferred to you permenantly.
 
 \column
-### telepath
-#### level 3: Mind infiltrator
+## telepath
+### level 3: Mind infiltrator
 You can cast the spell *detect thoughts* without expending a spell slot a number of times equal to your proficiency bonus, and regain all uses when you finish a long rest.
 
-#### level 6: Potent thoughts
+### level 6: Potent thoughts
 The range of your telepathy increases by 60 feet. In
 addition, you add your Intelligence modifier to the
 damage you deal with any Psion cantrip.
 
-### metamorph
-#### metamorph: level 3: Morphic shell
+## metamorph
+### level 3: Morphic shell
 Your skin hums with psionic energy, protecting you incoming attacks with an invisible barrier. While you aren’t wearing armor, your base Armor Class equals 10 plus your Dexterity and intelligence modifiers.
+
+### level 3: organic weapons
+You can shape your limbs into weapons. **As a bonus action**, you can reform your free hand into one of the
+following organic weapons: Bone Blade, Flesh Maul,
+or Viscera Launcher. Your limb retains the form of the organic
+weapon until you take another bonus action to change it
+into another organic weapon, or return it to normal (no action required).
 
 
 \page
