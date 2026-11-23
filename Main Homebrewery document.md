@@ -173,22 +173,18 @@ This effect becomes permenant against a *construct*-type creature, or at least, 
 :
 *vitriolic sphere* now also inflicts *coated with vicious acid* on a failed save.
 
-### bleeding
-When a creature is bleeding, they cannot regain hitpoints, and when they are targeted by a healing spell, the spell removes this condition instead of granting any hitpoints.
+### off balance
+Seeing as strength-based melee martials can get screwed over a million different ways with conditions, this condition gives characters an oppertunity to screw over a rogue too. 
 :
-The condition also ends if they take a short or long rest and expend hit dice.
-
-#### affected spells (buffs)
-*conjure barrage* and *conjure volley* now also inflicts bleeding on a failed save.
-
+**off balance**: The affected creature has disadvantage on dexterity checks and saving throws, and loses the bonus granted by dexterity to their AC. A creature recovers from being off balance at the start of their next turn.
 
 \column
-
+## class specific conditions
 
 ### shadowflame
 A unique variant of the burning condition avaliable to the warlock, it progressively grows in power as you gain levels, and cannot be put out with water. It can still be put out by the conventional method of spending your action to drop prone, to roll around and end the burning condition.
 :
-When a creature is burning with shadowflame, on the start of each of its turns, it takes necrotic damage equal to **1d4+half your warlock level**. This means it scales into late game with relevancy, compared to the meager 1d4 of burning.
+**shadowflame**: When a creature is burning with shadowflame, on the start of each of its turns, it takes necrotic damage equal to **1d4+half your warlock level**. This means it scales into late game with relevancy, compared to the meager 1d4 of burning.
 
 #### affected spells (buffs)
 Creatures that fail the save against *arms of hadar* or *hellish rebuke* also causes the target to *begin burning with shadowflame* on a failed save.
@@ -201,7 +197,7 @@ For balance reasons, only a single hollow projection can exist at one time.
 ### brimstone flames
 a variant of the burning condition avaliable to arcane casters. Brimstone flames cannot be put out save for magical means, and it disables fire resistance and immunities. Think of it as an extra evil, hellish fire that even creatures of fire can't stand.
 :
-When a creature is burning with brimstone flames, at the start of each of its turns, it takes 3d4 fire damage as blue hellish flame burns your soul If it has resistance or immunity to fire damage, **that resistance or immunity is removed until the condition ends**. Brimstone flames cannot be extinguished except by a healing spell of *greater restoration* or of higher level.
+**brimstone flames**: When a creature is burning with brimstone flames, at the start of each of its turns, it takes 3d4 fire damage as blue hellish flame burns your soul. If it has resistance or immunity to fire damage, **that resistance or immunity is removed until the condition ends**. 
 
 {{pageNumber,auto}}
 
@@ -221,11 +217,11 @@ ___
 
 # new spells by class
 ### ranger....
-Ranger, 2014 or 2024, has long felt disjointed between their spellcasting and martial ability. I've decided to lean into what martial-style spells cureently have, creating new options that both deal good damage and offer thematic and useful effects, called *elemental arrows*.
+Ranger, 2014 or 2024, has long felt disjointed between their spellcasting and martial ability. I've decided to lean into what martial-style spells cureently have, creating new options that both deal good damage and offer thematic and useful effects, called *elemental arrows*. Other thematic druid spells are also avaliable to them.
 
 #### elemental arrows
 New and thematic to the ranger, this is their "smites" of sorts, and *lightning arrow* is also considered an elemental arrow for class features or other (see: new class features).
-they're also Non-concentration, for the most part, meaning rangers might be able to do something whilst they have hunter's mark going.
+they're also non-concentrationm meaning rangers might be able to do something whilst they have hunter's mark going. 
 
 #### Ranger new spells
 
@@ -235,39 +231,43 @@ they're also Non-concentration, for the most part, meaning rangers might be able
 - whistling arrow
 - aquatic arrow
 - arcane arrow
-
+- serpent's bite
+:
 ##### 2nd Level 
 - caustic arrow
 - smoldering arrow
-- serpent's bite
 - pressurised gale
+- 
+##### 3rd level
+- primal shell
 
 }}
 
 
 ### druid
 
-Druid's spell list is already fantastic, and the only spells provided here are to offer them a little bit of blasting potential whilst retaining control options.
+Druid's spell list is already fantastic, and the only spells provided here are to offer them a little bit of blasting potential alongside control. *primal shell* spell gives them more direct options to buff a wildshape focused playstyle or a charmed beast.
 
 #### Druid New Spells
 
 {{spellList,
 
+##### 1st level
+- serpent's bite
+- 
 ##### 2nd Level 
 - acidic exhalation
-- serpent's bite
-- pressurised gale
-<br>
 
+- pressurised gale
+
+##### 3rd level
+- primal shell
 ##### 4th Level 
 - Mote of moonlight
 
-
-
 }}
 
-
-
+\column
 
 ### bard
 bard's new encore encourages a smite-like tempo, making it great for both other martials in the party, or to cast on yourself as a swords or valor bard. It gives a sink for 1st level spell slots in late game play when their value is diminished.
@@ -278,16 +278,13 @@ bard's new encore encourages a smite-like tempo, making it great for both other 
 
 ##### 1st Level 
 - encore
-<br><br>
-
 ##### 3rd Level 
-- symphonic shield
+- Resonating blade
 
 ##### 4th Level 
-- Hollow projection: sword dance
+- symphonic shield
 }}
 
-\column
 
 ### artificer
 We’ve introduced the artificer’s new custom mechanic, hollow projection, in the earlier section “shared content”. Here they are:
@@ -299,12 +296,9 @@ We’ve introduced the artificer’s new custom mechanic, hollow projection, in 
 ##### 2nd Level 
 - Hollow projection: thorn
 
-<br><br><br><br>
 
 ##### 3rd Level 
 - Hollow projection: shield
-- vicious vitriol
-- symphonic shield
 
 ##### 4th Level 
 - Hollow projection: sword dance
@@ -312,28 +306,30 @@ We’ve introduced the artificer’s new custom mechanic, hollow projection, in 
 }}
 
 ### warlock
-Multiple unique warlock spells are planned, in order to give them more competitive late-game options that are unique to their class, as warlock doesn't have a single unique spell past 4th level in base game. 
+Multiple unique warlock spells are planned, in order to give them more competitive late-game options that are unique to them; warlock doesn't have a single unique spell past 4th level.
 
 #### warlock new spells
-warlock gains a new and unique mystic arcanum option:
+warlock gains new mystic arcanum options:
 {{spellList,
+
 ##### 6th Level 
 - brimstone strike
+- devour mind
+
 
 }}
 ### what's next? + work in progress
-warlock and cleric are to recieve some custom spells as well. At the present moment, wizards / sorcerers only get one new spell they share with the artificer:
-
-#### Wizard / Sorcerer New Spells
+warlock and cleric are to recieve some custom spells as well. At the present moment, Wizard a class unique option for 4th level:
+#### Wizard  New Spells
 
 {{spellList,
 
-##### 3rd Level 
-- vicious vitriol
 
+##### 4th level
+- dark-shattering lance
 }}
 
- 
+
 #### cleric new spells
 ...and cleric gains a new spell they share with the druid.
 
@@ -481,13 +477,25 @@ You suffuse an piece of ammunition with the elemental energy of fire that erupts
 When you hit a creature with an attack roll using this ammunition, In addition to the normal effect of the attack, they and all creatures within a 10ft radius of them must make dexterity saving throws. On a failed save, they take 3d8 fire damage, and begin burning. On a successful save, they take half damage, and aren't affected by burning.
 
 
+#### serpent's bite
+*1st level transmutation (Ranger, druid)*
+
+**Casting Time:** :: Bonus Action, which you take immediately after hitting a target with an ranged attack roll.
+**Range:**        :: Self
+**Components:**   :: S, V
+**Duration:**     :: instantaneous
+
+As your attack strikes the target, you transmute it into a coiling serpent that pulls creatures together.
+:
+In addition to the normal effect of the attack, they take 1d8 poison damage, and must make a strength saving throw, or be pulled up to 15ft towards you. Alternatively, you forgo the save and pull yourself 15ft towards them.
+
 {{pageNumber,auto}}
 \page
 
 ## druid spells
 
 #### acidic exhalation 
-*2nd level evocation (Druid, ranger)*
+*2nd level evocation (Druid)*
 
 **Casting Time:** :: Action
 **Range:**        :: 30ft (cone)
@@ -503,11 +511,11 @@ On a failed save, they take 6d4 acid damage, and become *coated with acid*, unti
 *4th level conjuration (Druid, cleric)*
 
 **Casting Time:** :: Action
-**Range:**        :: 120ft, under open sky
+**Range:**        :: 300ft, under open sky
 **Components:**   :: V, S, M
 **Duration:**     :: instantaneous
 
-You call down a silver pillar of moonlight that descends in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. All creatures inside the cylinder must make a constitution saving throw or take 5d8 radiant damage, and are blinded. On a successful save, they take half damage, and are not blinded.
+You call down a silver pillar of moonlight that descends in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. All creatures inside the cylinder must make a constitution saving throw or take 6d8 radiant damage, and are blinded. On a successful save, they take half damage, and are not blinded.
 :
 
 **At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 1st.
@@ -516,7 +524,7 @@ You call down a silver pillar of moonlight that descends in a 20-foot-radius, 40
 
 
 #### Pressurised gale 
-*2nd level conjuration (artificer, ranger, druid)*
+*2nd level conjuration (ranger, druid)*
 
 **Casting Time:** :: 1 Action
 **Range:**        :: 60ft
@@ -527,17 +535,18 @@ You compress whirling winds into a pressurised vortex in a 10ft radius sphere ce
 :
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the vortex's radius increases by 10ft for each slot level above 1st.
 
-#### serpent's bite
-*1st level transmutation (Ranger, druid)*
+#### primal shell 
+*3rd level abjuration (ranger, druid)*
 
-**Casting Time:** :: Bonus Action, which you take immediately after hitting a target with an ranged attack roll.
-**Range:**        :: Self
-**Components:**   :: S, V
-**Duration:**     :: instantaneous
+**Casting Time:** :: 1 bonus action
+**Range:**        :: touch
+**Components:**   :: V, S, M
+**Duration:**     :: 8 hours
 
-As your attack strikes the target, you transmute it into a coiling serpent that pulls creatures together.
+You touch a willing beast, and a dark-green aura of druidic magic shields them from harm. The creature's AC cannot be lower than 18, and their hitpoint maximum increases by 8. 
 :
-In addition to the normal effect of the attack, they take 1d8 poison damage, and must make a strength saving throw, or be pulled up to 15ft towards you. Alternatively, you forgo the save and pull yourself 15ft towards them.
+Alternatively, you touch a or a *wildshaped* or *polymorphed* creature. The creature's AC cannot be lower than 18, and the amount of temporary hitpoints they gain by being *wildshaped* or *polymorphed* increases by 8.
+
 \page
 
 
@@ -555,7 +564,7 @@ If the selected creature can hear you, it can immediately make one weapon attack
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the extra thunder damage increases by 1d6 for each slot level above 1st.
 
 #### Symphonic shield
-*4th level abjuration (bard, artificer)*
+*4th level abjuration (bard)*
 
 **Casting Time:** :: 1 action
 **Range:**        :: self (20ft radius)
@@ -569,33 +578,62 @@ Protected creatures gain a +2 bonus to their AC against ranged attack rolls, a +
 
 \column
 
-## Wizard / sorcerer spells
+#### resonating blade 
+*3rd level transmutation (bard)*
 
-#### Vicious vitriol 
-*3rd level conjuration (artificer, wizard, sorcerer)*
+**Casting Time:** :: 1 bonus action
+**Range:**        :: touch
+**Components:**   :: V, S
+**Duration:**     :: concentration, up to 1 hour
 
-**Casting Time:** :: 1 Action
-**Range:**        :: 60ft
+You touch a melee weapon, and set the metal to reverbate and oscillate rapidly. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 thunder damage when it hits.
+:
+Once per turn, when a creature is hit with this weapon, in addition to the normal effect of the attack, they must make a constitution saving throw or be thrown *off balance*.
+
+
+
+\page
+
+## Wizard spells
+
+
+#### Dark-shattering lance
+*4th level evocation (wizard)*
+
+**Casting Time:** :: 1 bonus action
+**Range:**        :: 150ft
 **Components:**   :: S, M
-**Duration:**     :: 10 minutes (Acid ball duration), 1 minute (acid duration)
+**Duration:**     :: 10 minutes
 
-You compress hissing acid into a tiny object with an AC of 10 and 1 hitpoint. When the duration expires, or the ball takes damage, it detonates into an acidic explosion that fills a 20ft radius sphere centered on itself. Each creature in the area must make a dexterity saving throw or take 10d4 acid damage, or half as much damage on a successful save.
+You manifest a polearm of your choice from wisps of negative energy, which hovers beside you. Until the spell ends, as an action, you send the polearm towards a creature within range, and make a ranged spell attack roll. On a hit, the target takes 6d6 force damage, and any spell effect of 3rd level or lower on them ends.
 :
-Alternatively, as part of the same action, you hurl the ball towards a point within range, in which it detonates immediately centered on the point. 
-:
-**At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 2d4 for each slot level above 1st.
+Alternatively, you can manifest it as a javelin with a thrown range of 150ft (no long range), which uses the thrower's strength for the attack roll. The javelin benefits from any bonuses to ranged attack or damage rolls. 
+
+
+\column
 
 ## warlock spells
-#### Brimstone strike
-*6th level conjuration (warlock)*
+
+#### shadowflame strike
+*6th level evocation (warlock)*
 
 **Casting Time:** :: 1 Action
 **Range:**        :: 300ft
 **Components:**   :: V, S, M
-**Duration:**     :: instantaneous (eruption), 1 hour (sulphuric flame duration), 
-A pillar of molten rock erupts with blue sulphuric flame in a 30-foot-radius, 60-foot-high cylinder. Each creature in the cylinder must make a dexterity saving throw, or take 10d6 fire damage, and begin burning with *brimstone* flames. A creature that succeeds the save takes half damage and does not begin burning.
-:
-The ground at the bottom of the cylinder continues to burn with sulphuric flame. When a creature begins their turn in the area, they must make a dexterity saving throw or begin burning with *brimstone flames*.
+**Duration:**     :: instantaneous 
+A pillar of ghastly blue flame fills the air alongside the screech of sacrificed souls in a 30-foot-radius, 60-foot-high cylinder. Each creature in the cylinder must make a dexterity saving throw, or take 10d6 fire damage, and begin burning with *shadowflame*. A creature that succeeds the save takes half damage and does not begin burning.
+
+
+#### devour mind
+*6th level necromancy (psion, warlock)*
+
+**Casting Time:** :: 1 Action
+**Range:**        :: 5ft
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+You sink psychic fangs into a creature, piercing through physical defense. A creature you can see within range must make an intelligence saving throw. On a failed save, they take 10d8+8 psychic damage, and are stunned until the end of your next turn. On a successful save, they take half as much damage, and are not stunned.
+
 
 {{pageNumber,auto}}
 \page
@@ -623,13 +661,12 @@ You project a shield of shimmering magical energy to protect you and your allies
 **Components:**   :: V, S, M 
 **Duration:**     :: 8 hours, Only one hollow projection can be active at one time
 
-
 you project shimmering magical energy that crystallizes around up to six creatures of your choice within range. When an attack roll is made against a creature affected by this spell, the attacking creature takes 4 points of force damage, regardless if the attack hits or misses. 
 :
 **At higher levels.**: When you cast this spell using a spell slot of 3rd level or higher, the force damage increases by 2 for every slot above 2nd level.
 
 #### Hollow projection: sword dance
-*4th level conjuration (artificer, bard),*
+*4th level conjuration (artificer),*
 
 **Casting Time:** :: 1 action
 **Range:**        :: self (10ft radius)
@@ -690,9 +727,7 @@ Before you make an attack with a ranged weapon, you can choose to forgo your pro
 :
 **Ability Score Increase.** Increase your dexterity, constitution, or Strength score by 1, to a maximum of 20.
 :
-**Improved critical.** Your uncanny accuracy strikes true on critical weak points. The number you need to score a critical hit on an weapon attack roll is reduced by 1.
-
-
+**Improved critical.** The number you need to score a critical hit on an weapon attack roll is reduced by 1.
 
 
 ### Dextrous
@@ -733,7 +768,6 @@ Your martial arts have turned your bare hands into deadly weapons. Your unarmed 
 **Ability Score Increase.** Increase your dexterity, strength or wisdom score by 1, to a maximum of 20.
 :
 You forgo crude steel to attune your body to the elemental energies of the natural realm. Your melee weapon or unarmed strikes can deal fire, acid, lightning or cold damage in place of its original damage type.
-
 
 \column
 
@@ -893,43 +927,43 @@ ___
 These are a collection of house rules gathered over time playing with multiple different groups, where we adressed some common sore points, whether it be in 2014 or 2024. Ultimately, the impelementation of these rules depends on the DM's discretion. 
 
 
-
-
 ## design commentary
-#### warlock
+### warlock
 2024 made warlock less centered on EB, but it's still **the** damaging cantrip for most builds. Rather awful for the "tax" on your invocations and cantrip slots to something the class is known for, even if it's iconic. 
 :
 The new beshadowed blast feature is much more impactful on a 2014 warlock than a 2024 warlock, as the latter learns more invocations and spells. 
 
-#### bard
+### bard
 These are very much campaign specific house rules, due to the length of time between long rests in my campaigns, bard simply replenishes all their bardic inspiration on a short rest, and regains the song of rest feature. These features mean the bard can still use their signiature abilities between long rests, and they actually *help* recovery during short rests with SoR.
 :
 Don't kill me. I know swords bard exists.
 
+### fighter
+:
+Fighter's great in 24. The champion is still considered the worst subclass, though, so their buff buff is mainly aimed at helping weaker builds just...do more damage - PB damage once per turn doesn't help the sweaty crossbow expert a lot, but it does make sword and board feel a bit nicer. 
+
+#### master of arms
+The implementation of adding maneuvers and superiority dice into the base class is a common house rule for the fighter. This is a noticeable power boost, so I've chosen to grant the dice and maneuver gains at important "spike" levels - 5, 9, 13, 17, mirroring half caster progression. This also means they gain a direct damaging feature on levels 9 and 13.
 
 
-#### rogue
-There's a lot to say about rogue. Rogue damage is considered fine for T(ier) 1 play, levels 1-4. T2 (level 5+) is when they really begin to fall off without extra attack. 2024 hasn't helped much - cunning action is it's own can of worms.
+\column
+
+### ranger
+Ranger's *favoured foe* has been updated to incorporate the new *arcane arrow*, and the new elemental quiver feature adds and *elemental arrow* spells into the base kit, so you can do something with this additional class resource outside of casting hunter's mark....again.
+
+### rogue
+**Implementing all the new features here will break balance.** I reccomend the level 6 optional ASI + 1 combat feature. In addition, I would not reccomend using the crit rate boost at level 5 if the custom feats are enabled; there are crit rate granting feats, and crit rate is a steep exponential damage increase to unbalanced levels.
 :
-Are any of these new features individually as good as extra attack? No. I don't think rogues should get Extra attack, their current 2024 identity still focuses on a single, precise strike. 
-:
-On the level 6 ASI rule, I'm aware some rogue players like to go all in on damage. Even if not, other rogues may not want a second set of expertises, or simply, just not at level 6. Expertise at level 9 the same as bard and ranger in 2024.
-:
+There's a lot to say about rogue, and that's because it's maybe my favourite class. Rogue damage is considered fine for T(ier) 1 play, levels 1-4. T2 is when they really begin to fall off without extra attack. Are any of these new features individually as good as extra attack? No. I don't think rogues should get Extra attack, and their current 2024 identity still focuses on a single, precise strike. 
+
+#### ASI at level 6
+This is just an additional ASI, but it's impact is immense - early 20 dex, elven accuracy, etc. I've noticed some rogue players like to go all in on damage; even if not, other rogues may not want a second set of expertises at level 6 and prefer completing their build early. Expertise at level 9 the same as bard and ranger in 2024.
+#### critcality
 Criticality is a unique custom option, giving the class some on-demand nova capacity, but it moves away from the idea of the consistent martial striker they were in 2014. Mathematically, it comes out to about the same as d8 sneak attack - it's about giving more options over just doing strictly more damage.
-:
-:
-***I would not reccomend using the crit rate boost if the custom feats are enabled**; there are crit rate granting feats, and crit rate is a steep exponential damage increase to unbalanced levels.*
-:
-**Implementing all the new features here will break balance. I reccomend the level 6 optional ASI + 1 combat feature.**
 
-#### fighter
-:
-Fighter's great in 24, this buff is mainly aimed at helping weaker builds just...do more damage - PB damage once per turn doesn't help the sweaty crossbow expert a lot, but it does make sword and board feel a bit nicer. 
-:
-The alternative, and a personal favourite, is implementing maneuvers and superiority dice into the base class. This is a very noticeable power boost, so I've chosen to space out the dice and maneuver gains at important "spike" levels - 2, 5, 9, 13, 17, so they still gain a direct damaging feature on levels 9 and 17.
 
-#### ranger
-Ranger's favoured foe and the new elemental quiver feature both aim to incorporate the new *arcane arrow* and *elemental arrow* spells into the base kit, so you can do something with this additional class resource outside of casting hunter's mark....again.
+
+
 
 {{pageNumber,auto}}
 \page
@@ -953,7 +987,6 @@ at level 5, You select precision over frequency. You gain a number of charges of
 When you deal sneak attack damage, you can expend a charge of criticality to maximise the damage of your sneak attack die and your weapon. 
 
 
-
 ## warlock 
 ### level 1: beshadowed blast
 A warlock's signiature channel of their eldritch magic is in their *eldritch blast*. 
@@ -973,17 +1006,17 @@ Number of Uses. You can confer a Bardic Inspiration die a number of times equal 
 \column
 ## fighter
 
-### level 2: martial champion [in use]
+### Champion level 3: martial champion [in use]
 Once per turn, when you deal damage with a martial weapon, you deal additional damage equal to your proficiency bonus.
 
-### level 1: master of arms
+### level 5: master of arms [in use]
 As a figher, you understand the techniques of each weapon more than anyone else. 
 :
 **Maneuvers.** You learn one maneuvers of your choice from the “Maneuver Options” list. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.
 :
-**Superiority Dice.** You have a Superiority Die, which is a d8. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short or Long Rest.
+**Superiority Dice.** You have a Superiority Die, which is a d8. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Long Rest, and 1 die when you finish a short rest. 
 :
-You learn an additional maneuver of your choice, and gain an additional superiority dice, when you reach Fighter levels 5, 9, 13 and 17. Each time you learn a new maneuver, you can also replace one maneuver you know with a different one.
+You learn an additional maneuver of your choice, and gain an additional superiority dice, when you reach Fighter levels 9, 13, 17 an 20. Each time you learn a new maneuver, you can also replace one maneuver you know with a different one.
 :
 **Saving Throws.** If a maneuver requires a saving throw, the DC equals 8 plus your Strength or Dexterity modifier (your choice) and Proficiency Bonus.
 
@@ -1007,7 +1040,7 @@ If you have an elemental arrow spell prepared, you can cast that spell using a n
 {{partCover}}
 
 # part: 4
-## ?
+## psion (WIP)
 
 ___
 
@@ -1015,5 +1048,124 @@ ___
   ![yeah](https://i.pinimg.com/1200x/8c/ad/f4/8cadf4018cfc329512ac09e5f9374861.jpg){position:absolute,bottom:px,right:0px,height:130%}
 }}
 
+\page
+
+# the psion of 2024
+
+I'm not the biggest fan of 2024 UA psion. Their multiple-scaling dice mechanic is cool, but ultimately, they still feel too similar to their other d6 caster counterparts - sorcerer and wizard. Whatever the case, the UA psion is a class that is allowed to be used in this campaign, but I am still considering alternative implementations of this class that are better designed and more mechanically distinct.
+
+## class features
+The 2024 psion's class features are a little all over the place, but it's entirely rescuable. Certain features will be tweaked slightly, and additional small features will be added, to make class progression more satisfying. The psion has very poor resource economy, the class is constantly starved for resources - having to spend multiple resources just to achieve one outcome. As a psion gains levels, certain psionic techniques should be cognitively trivial for a master of the mind.
+:
+#### psionic restoration
+Reworked to be the psion equivalent of the 2024 monk’s Focus recovery: it restores only expended Psionic Energy Dice, not spell slots. It should come online early, at level 2. A small amount of healing also helps the class’s d6 hit dice.
+
+#### psionic power
+Psions are starved for their psionic energy die. Tying their level 1 core features to a random roll on a dice - one of your very few dice, by the way, seems like too many steps for little reward. Telepathy has been standrdized to level x 10, *for free*, and telekinetic propel is enhanced so it can be used as an action or bonus action, and the dice roll's push now scales with your PB.
+
+\column
+
+### subclass features
+The psion's subclasses are designed...very awkwardly. They often design features around needing to consume spell slots and psionic energy die - which is a full subclass feature, a spell slot, and a psionic energy die, to do one thing. Again, resource cost and economy.
+#### psykinetic: level 6: rebounding shield
+A 6th level subclass feature built on a 1st level spell. This is now a **3rd level subclass feature**, and they recieve a new feature at level 6 - **Psionic siege**, that allows them to break objects (notoriously hard with psychic damage) or bypass psychic damage resistance, increasing their DPR indirectly.
+
+#### psykinetic: level 10: enhanced telekinetic crush
+This is a 10th level feature that enhances a middling 3rd level spell. It's not great. This feature now grants them the ability to cast it once per long rest.
+
+#### telepath: level 3: mind infiltrator
+This costs a full 2nd level spell slot and a psionic energy die. And that's the entire subclass feature. Are we noticing a pattern? detect thoughts is a great spell, but a subclass dedicated to telepathy should be able to do it at little cost.
+
+#### metamorph: level 3: Psychic shell
+This is just draconic sorcerer's unarmored defense feature, on a subclass that really, really needs defenses. I've chosen to omit giving them hitpoints as they gain temporary ones via their other class features and spells.
+
+### new spells (psionic spells)
+With many of these campaign settings including users of psionics, these are some additional abilities avaliable to them. Currently, these are made to resemble spells, but may be moved into their own system later, depending on which iteration of the psion or mystic class is being used during a campaign.
+
+#### combat capabilities
+Most of these are options designed to enhance their combat capabilities. They are quite powerful, offering good damage and strong control, but they never get a fireball-level of raw power. They should get something in their psionic niche, like disrupting concentration, exploiting the weak *intelligence* save, or inflicting madness. 
+\page
+## psion class features
+
+### level 2: psionic restoration
+
+You can perform a meditation that focuses the mind
+for 1 minute. At the end of it, you regain all expended
+Psionic Energy Dice. When you do so, roll your Psionic energy die, and regain a number of Hit Points equal to your psion level plus the number rolled.
+:
+Once you use this feature, you can’t do so again until you finish a Long Rest.
+
+### level 1: psionic power
+*the rest of the freature remains unchanged. Only the following two features have been changed:*
+:
+**Telekinetic Propel.** As a Bonus action **or Action**, choose one
+Large or smaller creature other than you that you
+can see within 30 feet of yourself. When you do so,
+the target must succeed on a Strength saving throw
+or be moved 5 feet straight toward you or straight
+away from you. Alternatively, you can roll one
+Psionic Energy Die when you take this Action,
+and the distance moved equals 5 times your proficiency bonus. The die is expended only if the target fails the saving throw.
+:
+**Telepathic Connection.** You have telepathy with a
+range of feet equal to 10 times your psion level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.
+
+\column
+
+## subclass features
+
+### Psykinetic: level 3: rebounding shield
+*originally a 6th level feature for the psykinetic, now a 3rd level feature.*
+
+### Psykinetic: level 6: Psionic siege
+Your psionic power can now concentrate into physical harm. When you deal psychic damage to a creature or object, you can instead choose to deal that damage in the force of *bludgeoning damage* that is considered magical.
+
+### Psykinetic: level 10: enhanced telekinetic crush
+You can cast the spell *telekinetic crush* it once without expending a spell slot. You can't do so again this way until you finish a long rest.
+
+### telepath:  level 3: Mind infiltrator
+You can cast the spell *detect thoughts* without expending a spell slot a number of times equal to your proficiency bonus, and regain all uses when you finish a long rest.
+
+### metamorph: level 3: Psychic shell
+Your skin hums with psionic energy, protecting you incoming attacks with an invisible barrier. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.
 
 
+\page
+# psionic spells 
+
+#### Disrupt mind
+*5th level enchantment (psion)*
+
+**Casting Time:** :: 1 Action
+**Range:**        :: 90ft
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+You send a shimmering psychic needle through the mind of a creature you can see within range. The creature loses concentration instantly on a spell or similar effect, and must make an intelligence saving throw. On a failed save, they take 5d10 psychic damage or half as much on a successful one.
+
+
+#### psychic storm
+*4th level enchantment (psion)*
+
+**Casting Time:** :: 1 Action
+**Range:**        :: 120ft
+**Components:**   :: S
+**Duration:**     :: concentration, up to 1 minute
+
+You conjure a whirlwind of psionic energy, that tears and rips the air itself, in a 20-foot-radius, 60-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a dexterity saving throw. On a failed save, they are levitated 20 feet upwards into the air, up to a maximum vertical height of 60 feet, and are restrained. If the creature was already in the air (such as through the *fly* spell), they are levitated 20 feet upwards from their original location.
+:
+At the end of subsequent turns, the creature can remake the saving throw. On a successful save, they stop levitating, and are no longer restrained. 
+
+\column
+
+#### psychequake
+*6th level evocation (psion)*
+
+**Casting Time:** :: 1 Action
+**Range:**        :: self (60ft radius)
+**Components:**   :: S
+**Duration:**     :: 10 minutes
+
+You send psionic shockwaves into the ground beneath, resonating with tectonic movements in a 60ft radius originating from you. For the duration of the spell (which you can end at any time), the ground is considered difficult terrain. 
+:
+When a creature enters the area, or begins their turn within it, they must make a strength saving throw or be forced *off balance* due to the shockwaves underneath their feet.
