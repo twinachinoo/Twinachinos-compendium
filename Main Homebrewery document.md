@@ -32,91 +32,125 @@ ___
 
 \page
 
-# this is the everything book.
-Welcome, travellers from afar. Thank you for playing in a twinachino campaign. Below is content that is used in all of my campaigns, though not all of it will be made avaliable at once. Consider this a compendium for all my homebrew.
-
 {{toc,wide
 # Contents
 
-{{toc,wide
-# Contents
-
-- ### [{{ this is the everything book.}}{{ 3}}](#p3)
-- ### [{{ shared content}}{{ 4}}](#p4)
-- #### [{{ spell (and other) buffs}}{{ 4}}](#p4)
-- #### [{{ coated with acid}}{{ 4}}](#p4)
-- #### [{{ bleeding}}{{ 4}}](#p4)
-- #### [{{ shadowflame}}{{ 4}}](#p4)
-- #### [{{ Hollow projection}}{{ 4}}](#p4)
-- #### [{{ brimstone flames}}{{ 4}}](#p4)
-- ### [{{ part: 1}}{{ 5}}](#p5)
-- ### [{{ spell design and specification}}{{ 6}}](#p6)
-- #### [{{ core design principle}}{{ 6}}](#p6)
-- #### [{{ ranger….}}{{ 6}}](#p6)
-- #### [{{ druid}}{{ 6}}](#p6)
-- #### [{{ bard}}{{ 6}}](#p6)
-- #### [{{ artificer}}{{ 6}}](#p6)
-- #### [{{ what’s next? + work in progress}}{{ 6}}](#p6)
-- #### [{{ Ranger: Elemental arrows}}{{ 7}}](#p7)
-- #### [{{ druid spells}}{{ 8}}](#p8)
-- #### [{{ bard spells}}{{ 9}}](#p9)
-- #### [{{ Wizard / sorcerer spells}}{{ 9}}](#p9)
-- #### [{{ artificer: Hollow projections}}{{ 10}}](#p10)
-- ### [{{ part: 2}}{{ 11}}](#p11)
-- ### [{{ martials like good feats}}{{ 12}}](#p12)
-- #### [{{ feat scaling?}}{{ 12}}](#p12)
-- #### [{{ fighting styles}}{{ 12}}](#p12)
-  - [{{ magus}}{{ 12}}](#p12)
-  - [{{ focused aim}}{{ 12}}](#p12)
-- #### [{{ rogue-style feats}}{{ 12}}](#p12)
-  - [{{ Lethal accuracy}}{{ 12}}](#p12)
-  - [{{ Dextrous}}{{ 12}}](#p12)
-  - [{{ Critical disaster}}{{ 12}}](#p12)
-- #### [{{ monk / druid feats}}{{ 13}}](#p13)
-  - [{{ Martial artist}}{{ 13}}](#p13)
-  - [{{ Elemental attunement}}{{ 13}}](#p13)
-- #### [{{ general martial feats}}{{ 13}}](#p13)
-  - [{{ weapon expert}}{{ 13}}](#p13)
-  - [{{ paragon of power}}{{ 13}}](#p13)
-- #### [{{ warlock feats}}{{ 14}}](#p14)
-  - [{{ Pact magician}}{{ 14}}](#p14)
-  - [{{ fractalizing magic}}{{ 14}}](#p14)
-- #### [{{ apprentice feats}}{{ 14}}](#p14)
-  - [{{ assassin’s apprentice}}{{ 14}}](#p14)
-  - [{{ monk’s apprentice}}{{ 14}}](#p14)
-- ### [{{ New invocations}}{{ 15}}](#p15)
-- #### [{{ level 1}}{{ 15}}](#p15)
-- #### [{{ level 2}}{{ 15}}](#p15)
-- #### [{{ level 5}}{{ 15}}](#p15)
-- #### [{{ level 7}}{{ 15}}](#p15)
-- #### [{{ level 9}}{{ 15}}](#p15)
-- ### [{{ part: 3}}{{ 16}}](#p16)
-- ### [{{ usage of new class features}}{{ 17}}](#p17)
-- #### [{{ Patch weaknessess over adding strength}}{{ 17}}](#p17)
-- #### [{{ design commentary}}{{ 17}}](#p17)
-- #### [{{ rogue}}{{ 18}}](#p18)
-  - [{{ level 5: improved critical}}{{ 18}}](#p18)
-  - [{{ level 5: sneak attack die [in use]}}{{ 18}}](#p18)
-  - [{{ level 6: ASI [in use]}}{{ 18}}](#p18)
-  - [{{ level 5: Criticality}}{{ 18}}](#p18)
-- #### [{{ warlock}}{{ 18}}](#p18)
-  - [{{ level 1: beshadowed blast}}{{ 18}}](#p18)
-- #### [{{ bard}}{{ 18}}](#p18)
-  - [{{ level 1: bardic inspiration [in use]}}{{ 18}}](#p18)
-  - [{{ level 2: song of rest [in use]}}{{ 18}}](#p18)
-- #### [{{ fighter}}{{ 19}}](#p19)
-  - [{{ level 2: martial champion [in use]}}{{ 19}}](#p19)
-  - [{{ level 1: master of arms}}{{ 19}}](#p19)
-
-}}
-
-
+- ### [{{ this is the everything book.}}{{ 4}}](#p4)
+- #### [{{ usage of custom features}}{{ 4}}](#p4)
+- ### [{{ new conditions}}{{ 5}}](#p5)
+- #### [{{ spell (and other) buffs}}{{ 5}}](#p5)
+- ## [{{ part: 1}}{{ 6}}](#p6)
+- ### [{{ new spells by class}}{{ 7}}](#p7)
+- #### [{{ ranger….}}{{ 7}}](#p7)
+- #### [{{ druid}}{{ 7}}](#p7)
+- #### [{{ bard}}{{ 7}}](#p7)
+- #### [{{ artificer}}{{ 7}}](#p7)
+- #### [{{ warlock}}{{ 7}}](#p7)
+- #### [{{ what’s next? + work in progress}}{{ 7}}](#p7)
+- #### [{{ magical consumables}}{{ 8}}](#p8)
+  - [{{ mana potions}}{{ 8}}](#p8)
+  - [{{ runes}}{{ 8}}](#p8)
+- ### [{{ spells}}{{ 9}}](#p9)
+- #### [{{ Ranger: Elemental arrows}}{{ 9}}](#p9)
+- #### [{{ druid spells}}{{ 10}}](#p10)
+- #### [{{ bard spells}}{{ 11}}](#p11)
+- #### [{{ Wizard / sorcerer spells}}{{ 11}}](#p11)
+- #### [{{ warlock spells}}{{ 11}}](#p11)
+- #### [{{ artificer: Hollow projections}}{{ 12}}](#p12)
+- ## [{{ part: 2}}{{ 13}}](#p13)
+- ### [{{ martials like good feats}}{{ 14}}](#p14)
+- #### [{{ feat scaling?}}{{ 14}}](#p14)
+- #### [{{ fighting styles}}{{ 14}}](#p14)
+  - [{{ magus}}{{ 14}}](#p14)
+  - [{{ focused aim}}{{ 14}}](#p14)
+- #### [{{ rogue-style feats}}{{ 14}}](#p14)
+  - [{{ Lethal accuracy}}{{ 14}}](#p14)
+  - [{{ Dextrous}}{{ 14}}](#p14)
+  - [{{ Critical disaster}}{{ 14}}](#p14)
+- #### [{{ monk / druid feats}}{{ 15}}](#p15)
+  - [{{ Martial artist}}{{ 15}}](#p15)
+  - [{{ Elemental attunement}}{{ 15}}](#p15)
+- #### [{{ general martial feats}}{{ 15}}](#p15)
+  - [{{ weapon expert}}{{ 15}}](#p15)
+  - [{{ paragon of power}}{{ 15}}](#p15)
+- #### [{{ warlock feats}}{{ 16}}](#p16)
+  - [{{ Pact magician}}{{ 16}}](#p16)
+  - [{{ fractalizing magic}}{{ 16}}](#p16)
+- #### [{{ apprentice feats}}{{ 16}}](#p16)
+  - [{{ assassin’s apprentice}}{{ 16}}](#p16)
+  - [{{ monk’s apprentice}}{{ 16}}](#p16)
+- ### [{{ New invocations}}{{ 17}}](#p17)
+- #### [{{ level 1}}{{ 17}}](#p17)
+- #### [{{ level 2}}{{ 17}}](#p17)
+- #### [{{ level 5}}{{ 17}}](#p17)
+- #### [{{ level 7}}{{ 17}}](#p17)
+- #### [{{ level 9}}{{ 17}}](#p17)
+- ## [{{ part: 3}}{{ 18}}](#p18)
+- ### [{{ new class features}}{{ 19}}](#p19)
+- #### [{{ design commentary}}{{ 19}}](#p19)
+- #### [{{ rogue}}{{ 20}}](#p20)
+  - [{{ level 5: improved critical}}{{ 20}}](#p20)
+  - [{{ level 5: sneak attack die [in use]}}{{ 20}}](#p20)
+  - [{{ level 6: ASI [in use]}}{{ 20}}](#p20)
+  - [{{ level 5: Criticality}}{{ 20}}](#p20)
+- #### [{{ warlock}}{{ 20}}](#p20)
+  - [{{ level 1: beshadowed blast}}{{ 20}}](#p20)
+- #### [{{ bard}}{{ 20}}](#p20)
+  - [{{ level 1: bardic inspiration [in use]}}{{ 20}}](#p20)
+  - [{{ level 2: song of rest [in use]}}{{ 20}}](#p20)
+- #### [{{ fighter}}{{ 20}}](#p20)
+  - [{{ level 2: martial champion [in use]}}{{ 20}}](#p20)
+  - [{{ level 1: master of arms}}{{ 20}}](#p20)
+- #### [{{ ranger}}{{ 20}}](#p20)
+  - [{{ Level 1: Favored Enemy}}{{ 20}}](#p20)
+  - [{{ level 2: elemental quiver}}{{ 20}}](#p20)
+- ## [{{ part: 4 (WIP past here)}}{{ 21}}](#p21)
 }}
 
 
 {{pageNumber,auto}}
 \page
-# shared content
+
+
+# this is the everything book.
+Welcome, travellers from afar. Thank you for playing in a twinachino campaign. Below is content that is used in all of my campaigns, though not all of it will be made avaliable at once. Consider this a compendium for all my homebrew.
+
+### usage of custom features
+The usage of anything within this book depends entirely on an agreement between player and Dm.
+
+#### New conditions
+New conditions are introduced to offer more variety to gameplay and help buff some underrated abilities or spells as they do.
+
+#### new feats
+New feats serve to offer more diverse build paths, particularly for martials, other than just taking raw ASIs. They are all generally quite strong. Additionally, two feats have been made avaliable to the warlock at level 8, where they can sacrifice their ASI to gain an additional spell slot or eldritch blast beam. This is my preferred implementation of these two highly requested features.
+
+#### new invocations
+alongside gaining two new feat options, warlocks additionally gain new invocations to push a stronger eldritch blast damage build option, without relying on a subclass.
+
+#### consumables for spells and spell slots
+the introduction of runes and mana potions offers a spellcaster significantly more leeway with their builds, whilst still preserving an element of dice RNG. This means a spellcasting class can go on longer even without long rest spam.
+
+\column
+
+#### new spells
+
+Spells introduced here are generally designed to suit the campaign's theme as unique abilities. They **do not have to be cast as spells**. Consider these unique abilities that creatures, traps, or others can utilize. Currently, the *artificer, bard, cleric, druid, ranger, sorcerer, warlock and wizard all gain at least one additional spell. More will be added as time goes on.* 
+
+##### core design principle
+Many of these ar designed to give more content for underrepresented damage types, effects, or classes. Consider the *artificer*, for example, would be a fantastic fit to introduce more **lightning damage**, and electricity-themed spells. Or for example, the deeply underrepresented *acid* damage type in spells.
+
+#### new class features
+
+New class features serve more to *patch weaknesses* than to pump more power into a class. D&D is not a balanced game; let's accept that early, and look to ensure a class's mechanical chassis does not get in the way of roleplay, storytelling, and combat.
+
+##### multiple options
+Many different house rules have been drawn from different campaigns, and ultimately, depend on an agreement between DM and player. If a class has multiple unique options, it is generally advised you only select only 1-2 to implement.
+
+##### Optimizations
+The design behind these features primarily focus on raising a class's baseline, not pushing their ceiling. This is to aid "subpar" builds still feel strong and capable. However, Optimizers might discover combinations I am not aware of. 
+\page
+
+# new conditions
 Some new abilities, spells, or feats will reference new content. If you see a new term not in D&D's base conditions, refer to here.
 
 ### spell (and other) buffs
@@ -133,20 +167,22 @@ This effect becomes permenant against a *construct*-type creature, or at least, 
 **coated with acid:** If the creature wears metal armor, they gain a -1 penalty to AC granted by the armor. If the creature wields metal weapons, they gain a -1 penalty to attack and damage rolls. 
 :
 **coated with vicious acid:** If the creature wears metal armor, they gain a -2 penalty to AC granted by the armor. If the creature wields metal weapons, they gain a -2 penalty to attack and damage rolls with it. 
-:
-**coated with ichor:** If the creature wears metal armor, they gain a -3 penalty to AC granted by the armor. If the creature wields metal weapons, they gain a -3 penalty to attack and damage rolls with it. 
 
 #### affected spells (buffs)
 *acid arrow* now also inflicts *coated with acid* on a failed save.
 :
 *vitriolic sphere* now also inflicts *coated with vicious acid* on a failed save.
 
-\column
-
 ### bleeding
 When a creature is bleeding, they cannot regain hitpoints, and when they are targeted by a healing spell, the spell removes this condition instead of granting any hitpoints.
 :
 The condition also ends if they take a short or long rest and expend hit dice.
+
+#### affected spells (buffs)
+*conjure barrage* and *conjure volley* now also inflicts bleeding on a failed save.
+
+
+\column
 
 
 ### shadowflame
@@ -158,14 +194,14 @@ When a creature is burning with shadowflame, on the start of each of its turns, 
 Creatures that fail the save against *arms of hadar* or *hellish rebuke* also causes the target to *begin burning with shadowflame* on a failed save.
 
 ### Hollow projection
-A unique and powerful buff option avaliable exclusively to the artificer. This effectively lets them put up an additional "infusion effect" for the whole party, as the spells are non-concentration and last for 8 whole hours; it comes at the cost of a high level spell slot.
+Unique and powerful buff spell options avaliable exclusively to the artificer. This effectively lets them put up an additional "infusion effect" for the whole party, as the spells are non-concentration and last for 8 whole hours; it comes at the cost of a high level spell slot.
 :
 For balance reasons, only a single hollow projection can exist at one time.
 
 ### brimstone flames
 a variant of the burning condition avaliable to arcane casters. Brimstone flames cannot be put out save for magical means, and it disables fire resistance and immunities. Think of it as an extra evil, hellish fire that even creatures of fire can't stand.
 :
-When a creature is burning with brimstone flames, at the start of each of its turns, it takes 3d4 fire damage. If it has resistance or immunity to fire damage, that resistance or immunity is removed until the condition ends. Brimstone flames cannot be extinguished except by a healing spell of *greater restoration* or of higher level.
+When a creature is burning with brimstone flames, at the start of each of its turns, it takes 3d4 fire damage as blue hellish flame burns your soul If it has resistance or immunity to fire damage, **that resistance or immunity is removed until the condition ends**. Brimstone flames cannot be extinguished except by a healing spell of *greater restoration* or of higher level.
 
 {{pageNumber,auto}}
 
@@ -183,22 +219,12 @@ ___
 
 \page
 
-
-
-
-# spell design and specification
-
-Spells introduced here are generally designed to suit the campaign's theme as unique abilities. They **do not have to be cast as spells**. Consider these unique abilities that creatures, traps, or others can utilize.
-
-### core design principle
-Many of these ar designed to give more content for underrepresented damage types, effects, or classes. Consider the *artificer*, for example, would be a fantastic fit to introduce more **lightning damage**, and electricity-themed spells. Or for example, the deeply underrepresented *acid* damage type in spells.
-
+# new spells by class
 ### ranger....
-Ranger, 2014 or 2024, has long felt disjointed between their spellcasting, skill proficiencies, and martial ability. I've decided to lean into what martial-style spells they do have to create a few interesting options that both deal good damage and offer thematic and useful effects, called *elemental arrows*
+Ranger, 2014 or 2024, has long felt disjointed between their spellcasting and martial ability. I've decided to lean into what martial-style spells cureently have, creating new options that both deal good damage and offer thematic and useful effects, called *elemental arrows*.
 
-#### elemenetal arrows
-all elemental arrow spells can be upcast for an additional 1d8 damage per spell level, and *lightning arrow* is also considered an elemental arrow for class features or other (see: new class features).
-:
+#### elemental arrows
+New and thematic to the ranger, this is their "smites" of sorts, and *lightning arrow* is also considered an elemental arrow for class features or other (see: new class features).
 they're also Non-concentration, for the most part, meaning rangers might be able to do something whilst they have hunter's mark going.
 
 #### Ranger new spells
@@ -237,10 +263,11 @@ Druid's spell list is already fantastic, and the only spells provided here are t
 - Mote of moonlight
 
 
+
 }}
 
 
-\column
+
 
 ### bard
 bard's new encore encourages a smite-like tempo, making it great for both other martials in the party, or to cast on yourself as a swords or valor bard. It gives a sink for 1st level spell slots in late game play when their value is diminished.
@@ -259,6 +286,9 @@ bard's new encore encourages a smite-like tempo, making it great for both other 
 ##### 4th Level 
 - Hollow projection: sword dance
 }}
+
+\column
+
 ### artificer
 We’ve introduced the artificer’s new custom mechanic, hollow projection, in the earlier section “shared content”. Here they are:
 
@@ -281,8 +311,18 @@ We’ve introduced the artificer’s new custom mechanic, hollow projection, in 
 
 }}
 
+### warlock
+Multiple unique warlock spells are planned, in order to give them more competitive late-game options that are unique to their class, as warlock doesn't have a single unique spell past 4th level in base game. 
+
+#### warlock new spells
+warlock gains a new and unique mystic arcanum option:
+{{spellList,
+##### 6th Level 
+- brimstone strike
+
+}}
 ### what's next? + work in progress
-warlock and cleric are to recieve some custom spells as well. At the present moment, wizards / sorcerers only get one new spell:
+warlock and cleric are to recieve some custom spells as well. At the present moment, wizards / sorcerers only get one new spell they share with the artificer:
 
 #### Wizard / Sorcerer New Spells
 
@@ -291,18 +331,8 @@ warlock and cleric are to recieve some custom spells as well. At the present mom
 ##### 3rd Level 
 - vicious vitriol
 
-##### 6th Level 
-- brimstone strike
-
 }}
 
-#### warlock new spells
-warlock gains a new mystic arcanum option, which they share with the wizard and sorcerer
-{{spellList,
-##### 6th Level 
-- brimstone strike
-
-}}
  
 #### cleric new spells
 ...and cleric gains a new spell they share with the druid.
@@ -316,9 +346,77 @@ warlock gains a new mystic arcanum option, which they share with the wizard and 
 }}
 
 {{pageNumber,auto}}
-\page
-## Ranger: Elemental arrows
 
+\page
+
+## magical consumables  
+Additional ways to learn spells or regain spell slots.
+
+
+### mana potions
+*Potion, Rarity Varies*
+:
+A liquid that swirls with shades of blue, with a flourescent sheen. This potion is a magic item. As a Bonus Action, you can drink it and regain a number of spell slots, which have a combined level that is equal to or less than 1d4 worth of spell levels. You cannot drink another mana potion until you finish a short or long rest. 
+:
+If you drink the potion as an action, you forgo the dice roll and instead gain a set number of spell levels equal to the dice average (round up). 
+:
+The number of spell slots you can restore depends on the potion’s rarity, as shown in the table below.
+
+{{darkHeader
+
+| potion 1 | spell levels regained |dice average | rarity |
+|:---|:---:|---:|---:|
+| Mana potion (lesser)| 1 | 1 | common |
+| Mana potion| 1d4  | 2 | common |
+| Mana potion (greater)| 2d3 | 4 | uncommon |
+| Mana potion (superior)| 2d4 | 6 | rare |
+| Mana potion (supreme)| 2d6 | 8 | very rare |
+| Mana potion (mystic)| 2d8 | 10 | legendary |
+}}
+
+\column
+
+### runes
+*wonderous item, common*
+:
+A shimmering gylph of interlocking geometric shapes, that glows with iridescent colors and hums with arcane energy. The glyph contains a random spell of a certain spell level from a certain class. 
+:
+Over the course of one hour, you can infuse the rune into your body, in which it imprints itself into your skin. When you do, you learn a random spell from a class's spell list, the level of which is determined by the rune's rarity, and the class is determined by the rune type, both shown in the tables below. 
+:
+once infused, you can cast this spell for free, and can't do so again until you finish a long rest. When the spell is cast, the rune loses it's radiance, and regains it after a long rest. 
+:
+You can also cast this spell with any spell slots you have, and it does not count against the number of spells you know. If you have the *spellcasting* or *pact magic* feature, you can use your spell save DC and attack bonus in place of the rune's.
+
+{{darkHeader
+
+| Rune| spell levels regained  | rarity | DC | Spell attack bonus |
+|:---|:---:|---:|---:|---:|
+| rune (lesser)| cantrip |  common | 12 | +1
+| rune | 1st-2nd  | common | 13 | +2
+| rune  (greater)| 3rd-4th |  uncommon | 15 | +3
+| rune (superior)| 5th | rare | 17 | +4
+| rune (supreme)| 6th | very rare | 19 | +5
+| rune (mystic)| 7th | legendary | 22 | +6 
+}}
+
+The class's spell list is determined by what kind of rune it is.
+
+{{darkHeader
+
+| Rune type| class| 
+|:---|:---:|
+| rune of force | wizard |
+| rune of light | cleric  | common |
+| rune of dark | warlock | 
+| rune of life | druid | 
+| rune of dreams | psion | 
+
+}}
+
+\page
+# spells
+
+## Ranger: Elemental arrows
 
 #### whistling arrow
 *1st level transmutation (Ranger)*
@@ -355,6 +453,7 @@ When you hit a creature with an attack roll using this ammunition within, In add
 You suffuse up to four pieces of ammunition with magical potency, allowing them to seek out targets. For the duration of the spell, they become arcane arrows, which gain a +1 to attack and damage rolls. When you miss with an arcane arrow, you can use your reaction to reroll the attack against a different target within 30 feet.
 :
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the increase to attack and damage rolls increases to by one, and you select an additional four pieces of ammunition for each slot level above 2nd.
+
 \column
 
 #### caustic arrow
@@ -486,14 +585,15 @@ Alternatively, as part of the same action, you hurl the ball towards a point wit
 :
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the damage increases by 2d4 for each slot level above 1st.
 
+## warlock spells
 #### Brimstone strike
-*6th level conjuration (druid, wizard, sorcerer)*
+*6th level conjuration (warlock)*
 
 **Casting Time:** :: 1 Action
 **Range:**        :: 300ft
 **Components:**   :: V, S, M
 **Duration:**     :: instantaneous (eruption), 1 hour (sulphuric flame duration), 
-A pillar of molten rock erupts with blue sulphuric flame in a 40-foot-radius, 80-foot-high cylinder. Each creature in the cylinder must make a dexterity saving throw, or take 6d10 fire damage, and begin burning with *brimstone* flames. A creature that succeeds the save takes half damage and does not begin burning.
+A pillar of molten rock erupts with blue sulphuric flame in a 30-foot-radius, 60-foot-high cylinder. Each creature in the cylinder must make a dexterity saving throw, or take 10d6 fire damage, and begin burning with *brimstone* flames. A creature that succeeds the save takes half damage and does not begin burning.
 :
 The ground at the bottom of the cylinder continues to burn with sulphuric flame. When a creature begins their turn in the area, they must make a dexterity saving throw or begin burning with *brimstone flames*.
 
@@ -789,17 +889,9 @@ ___
 
 
 \page
-# usage of new class features
+# new class features
 These are a collection of house rules gathered over time playing with multiple different groups, where we adressed some common sore points, whether it be in 2014 or 2024. Ultimately, the impelementation of these rules depends on the DM's discretion. 
 
-### Patch weaknessess over adding strength
-They serve more to *patch weaknesses* than to pump more power into a class. D&D is not a balanced game; let's accept that early, and look to ensure a class's mechanical chassis does not get in the way of roleplay, storytelling, and combat.
-
-#### multiple options
-Many different house rules have been drawn from different campaigns, and ultimately, depend on an agreement between DM and player. If a class has multiple unique options, it is generally advised you only select only 1-2 to implement.
-
-#### Optimizations
-The design behind these features primarily focus on raising a class's baseline, not pushing their ceiling. This is to aid "subpar" builds still feel strong and capable. However, Optimizers might discover combinations I am not aware of. 
 
 
 
@@ -814,7 +906,7 @@ These are very much campaign specific house rules, due to the length of time bet
 :
 Don't kill me. I know swords bard exists.
 
-\column
+
 
 #### rogue
 There's a lot to say about rogue. Rogue damage is considered fine for T(ier) 1 play, levels 1-4. T2 (level 5+) is when they really begin to fall off without extra attack. 2024 hasn't helped much - cunning action is it's own can of worms.
@@ -915,302 +1007,13 @@ If you have an elemental arrow spell prepared, you can cast that spell using a n
 {{partCover}}
 
 # part: 4
-## Items
+## ?
 
 ___
 
 {{imageMaskEdge7,--offset:10cm,--rotation:180
   ![yeah](https://i.pinimg.com/1200x/8c/ad/f4/8cadf4018cfc329512ac09e5f9374861.jpg){position:absolute,bottom:px,right:0px,height:130%}
 }}
-
-
-
-
-
-\page
-# get out!
-
-This is part of the document for sake of organization. If you're playing in one of my campaigns, there's going to be spoilers in the items. If you're not...well, I can't stop you.
-:
-That's it. That's this page. It's a very blank page with a very simple message.
-
-\page
-# weapons
-
-## swords
-
-#### Sword of Silacés
-*Weapon (longsword), uncommon (requires attunement)*
-:
-A lustrous blade of silver, intricately etched with helix patterns.
-<br><br>
-You gain a +1 bonus to attack and damage rolls made with this weapon.
-<br><br>
-**Flying sword**: The sword can act on its own accord, flying and flourishing to attack your enemies. You can spend a bonus action to let go of the sword, casting the spell *spiritual weapon* without concentration, as the sword becomes the spiritual weapon. It retains a +1 bonus to attack and damage rolls in this form. When the spell ends, the sword returns to you.
-
-#### Wraith
-*Weapon (scimitar), uncommon*
-:
-A curved blade, forged in soul-flame.
-<br><br>
-You gain a +1 bonus to attack and damage rolls made with this weapon.
-<br><br>
-**Flaming sword**: Whilst equipped, you can cast the cantrip *green-flame blade*, and it counts as an **attack action** for the purposes of off-hand attacks and spellcasting. If you have the extra attack feature, you can replace one of your attacks with a cast of the cantrip.
-
-#### Rimeheart
-*Weapon (dagger), rare (requires attunement)*
-:
-A thin blade, fashioned in the style of an icicle.
-<br><br>
-**brittle ice**: you gain a +1 bonus to attack and damage rolls made with this weapon. In addition, The number you need to score a critical hit is reduced by one whilst wielding this weapon.
-<br><br>
-**fractured heart**: This weapon has 1d4+1 charges. When attacking with this weapon, you can spend a charge to deal an additional 1d6 cold damage on a hit. If you have the *sneak attack* feature, you deal 2d6 instead.
-<br><br>
-The weapon regains all charges at dawn.
-
-\column
-
-#### Crimson kiss
-*Weapon (dagger), rare (requires attunement)*
-:
-Whilst attuned to this weapon, it can act as your **arcane focus**. You gain a +1 to attack rolls and your spell save DC.
-:
-**biofeedback**: Once per short or long rest, When you kill a creature, or reduce them to 0 hitpoints with this weapon or a spell, you restore half the total amount damage dealt in hitpoints. 
-:
-**siphon life:** when you deal necrotic damage, you deal an additional point of necrotic damage.
-
-#### Silversong
-*weapon (rapier), rare (requires attunement)*
-:
-A needle-thin blade with a hilt fashioned in the shape of a treble clef, the silversong was the weapon of an ancient bard.
-:
-you gain a +1 bonus to attack and damage rolls made with this weapon.
-:
-Each attack you make with this weapon grants a stack of **tempo**. At 5 stacks, you can cast the *shatter* spell in place of your next attack (DC 15, or your spell save DC, whichever is higher).
-:
-**singing sword**: If a bard or bladesinger wizard equips this weapon, they gain an additional use of bardic inspiration / bladesong respectively.
-
-#### sequester
-*weapon (shortsword), rare*
-:
-you are considered proficient in the weapon whilst you wield it. **If you are already proficient,** you gain a +1 bonus to attack and damage rolls made with this weapon.
-:
-The weapon is invisible by default to everyone except you. attacking with it ends its invisibility until the end of your turn, in which it appears as a shard of translucent crystal.
-:
-**seek witness**: Whilst the blade remains equipped, you are under the effects of the *see invisibility* spell.
-
-{{pageNumber,auto}}
-\page
-
-#### Purity
-*weapon (greatsword), very rare (requires attunement by a cleric or paladin)*
-:
-A greatsword of pure shimmering, reverbating light. You gain a +2 bonus to attack rolls and damage rolls made with this weapon, which deals Radiant damage instead of Slashing damage.
-:
-**second smite**: If you are a paladin, all your divine smites deal an additional 1d8 radiant damage.
-:
-**first smite**: If you are a cleric, you gain the *divine smite* feature (2014) / learn the *divine smite* spell.
-:
-**Purity**. The greatsword emits Bright Light in a 5-foot radius and no dim light.
-#### sacrifice
-*weapon (longsword), rare*
-:
-An ornate blade, originally intended for ritual sacrifices. It glistens with crimson under moonlight. you gain a +1 bonus to attack and damage rolls made with this weapon.
-:
-**Moonlit**: When you finish a short rest or long rest under moonlight, you are under the *sanctuary* spell until you dispel it.
-:
-**sacrifice**: As a bonus action, cut yourself for your level in slashing damage, and you can make an addtional attack as part of your attack action with this weapon.
-\page
-
-# equipment
-
-### wonderous items
-
-#### frozen husk
-*wonderous item, varies (requires attunement)*
-:
-A sphere of ice, etched with swirling clouds. When attuned, The frozen core suffuses into a creature's body, granting them defensive boons. Depending on the rarity of the item, it grants 1 (common), 2 (uncommon), or all 3 (rare) boons:
-<br><br>
-**resist temperature**: you gain resistance to cold and fire damage.<br><br>
-**Shell of ice**: You can manifest a shield made of ice, and you are considered proficient with it. <br><br>
-**Frozen still**: You cannot be moved against your force.
-
-#### Ruby of blood
-*wonderous item, uncommon*
-:
-A faceted gem, with a churning, crimson liquid inside.
-When worn, your hitpoint maximum is raised by **4**.
-<br><br>
-**Ruby recovery**: Once per turn, when you heal a creature with a spell, you heal them for an additional amount equal to your proficiency bonus.
-
-#### diamond of clarity
-*wonderous item, rare*
-:
-A faceted gem, the diamond sparkling with a cold blue.
-When worn, your wisdom score is raised by **2**.
-<br><br>
-**Diamondsight**: You are always under the effect of the *see invisibility spell*, and automatically succeed checks to discern illusions.
-\column
-
-
-#### Solar simulacrum
-*wonderous item, rare*
-:
-The solar simulacrum is an orb of light that orbits the creature. 
-The item has 5 charges for the following properties. it regains 1d4+1 expended charges at dawn.
-:
-**Solar mote (1 charge)**: As a bonus action, make a ranged or spell attack roll against one creature within 60ft. On hit, deal 2d6 radiant damage. 
-:
-**banish the dark (3 charges)**: you cast the *daylight* spell, centered on yourself. This sunlight also dispels magical darkness.
-:
-additionally, when you deal fire or radiant damage, you can expend one charge to reroll the damage die.
-
-#### fractured halo
-*wonderous item, very rare*
-:
-A small, unimpressive metal ring. It cannnot be detected by magic. You can set a timer for the ring to activate after a set duration of 10 minutes or less. 
-:
-Upon activation, the ring expands into a serrated razor that spins at supersonic speed. Each creature that shares a 5ft cube with the ring makes a dexterity saving throw or take 10d8 slashing damage as they are shredded and torn asunder. The ring is then destroyed.
-
-\page
-### wands
-
-#### wand of the frostmaiden
-*wand, uncommon (requires attunement)*
-:
-A wand fashioned like an icicle, translucent and tinged pink. You gain a +1 to your spell attack rolls and spell save DC. Additionally, When you deal cold damage whilst holding this wand, you additionally deal 1 point of cold damage.
-:
-**spells**: This wand has 7 charges for the following spells. While holding it, you can expend the requisite number of charges to cast one of the following spells from the staff: *fog cloud* (1 charge), *rime's binding ice* (2 charges), *sleet storm* (3 charges), or *ice storm* (4 charges).
-:
-It regains 1d6+1 expended charges daily at dawn. 
-
-
-#### Nanoblack
-*wand, very rare (requires attunement)*
-:
-three interwoven branches of a blackened wood comprise this wand. It is cold to touch. It has 1 charge.
-:
-**Nanoblack**: you expend the 1 charge to cast the spell *disintegrate* (DC19, or your spell save DC, whichever is higher), shooting a beam of pure darkness. Celestials and humanoids automatically fail this save.
-:
-The wand requires 20 souls to be harvested (the death of 20 creatures by you or your allies), before it recovers 1 charge on the next dawn.
-
-\column
-
-## staff
-
-#### Brimstone staff
-*staff, rare (requires attunement)*
-:
-A staff of black stone, bubbling with molten magma within. You gain a +2 to your spell attack rolls and spell save DC. Additionally, When you deal fire damage whilst holding this wand, the creature also begins burning with *brimstone flames*.
-:
-**spells**. This staff has 10 charges for the following spells. While holding it, you can expend the requisite number of charges to cast one of the following spells from the staff: *burning hands* (1 charge), *scorching ray* (2 charges), *fireball* (3 charges), *wall of fire* (4 charges), *flame strike* (5 charges), or *brimstone strike* (6 charges).
-:
-It regains 1d6+4 expended charges daily at dawn. 
-
-
-\page
-
-
-### shields
-#### Shimmering shield
-*shield, uncommon (requires attunement)*
-:
-A shield comprised of force magic. If you are not proficient with shields, wielding a *force shield* still increases your AC by 1, and does not impede on *spellcasting*, *bladesong* or *rage*.
-:
-**deflect missiles**: you take no damage from *magic missile*.
-
-#### Shimmering shield +1
-*shield, rare (requires attunement)*
-:
-A shield comprised of force magic. If you are not proficient with shields, wielding a *force shield* still increases your AC by 2, and does not impede on *spellcasting*, *bladesong* or *rage*.
-:
-**deflect missiles**: you take no damage from *magic missile*.
-
-#### forearm shield
-*shield, common*
-:
-A small shield is strapped to your forearm. Wielding a forearm shield increases your AC by 1, and leaves both hands free.
-
-#### forearm shield +1
-*shield, uncommon*
-
-\column
-
-### quivers
-#### elemental quiver
-*quiver, uncommon (requires attunement by a ranger, druid, fighter, or rogue)*
-:
-The quiver has druidic runes across its leather exterior. You gain a +1 bonus to weapon or spell ranged attack and damage rolls.
-:
-**elemental arrow**: The quiver additionally stores 3 elemental arrows. You can cast *aquatic arrow*, *whistling arrow* and *ensnaring strike* each once by drawing an elemental arrow from the quiver. The quiver creates three new elemental arrows daily at dawn.
-
-#### elemental quiver
-*quiver, rare (requires attunement by a ranger, druid, fighter, or rogue)*
-:
-The quiver has druidic runes across its leather exterior. You gain a +2 bonus to weapon or spell ranged attack and damage rolls.
-:
-**elemental arrow**: The quiver additionally stores 2 elemental arrows. You can cast *caustic arrow*, and *Smoldering arrow* each once by drawing an elemental arrow from the quiver. The quiver creates two new elemental arrows daily at dawn.
-
-#### Storm quiver
-*quiver, rare (requires attunement by a ranger, druid, fighter, or rogue)*
-:
-The quiver has druidic runes across its leather exterior. You gain a +2 bonus to weapon or spell ranged attack and damage rolls.
-:
-**elemental arrow**: The quiver additionally stores an elemental arrow. You can cast *lighning arrow* once by drawing the elemental arrow from the quiver. The quiver creates a new elemental arrow daily at dawn.
-
-{{pageNumber,auto}}
-\page
-
-# consumables 
-
-#### Frostcore
-*wonderous item, uncommon*
-:
-A pearlescent ball of compressed cryonic energy. It acts as a tiny object with an AC of 25 and 1 hitpoint. As an action, you activate and throw the frostcore, in which you cast the spell *fireball*, dealing cold damage instead of fire.
-<br><br>
-Alternatively, you can set the pearl to detonate after a delay of 10 minutes or less. 
-
-\column
-## potions
-
-#### mana potion
-*Potion, Rarity Varies*
-:
-A liquid that swirls with shades of blue, with a flourescent sheen. This potion is a magic item. As a Bonus Action, you can drink it and regain a number of spell slots, which have a combined level that is equal to or less than 1d4 worth of spell levels. 
-:
-If you drink the potion as an action, you forgo the dice roll and instead gain a set number of spell levels equal to the dice average (round up).
-:
-The number of spell slots you can restore depends on the potion’s rarity, as shown in the table below.
-
-{{darkHeader
-
-| potion 1 | spell levels regained |dice average | rarity |
-|:---|:---:|---:|---:|
-| Mana potion (lesser)| 1 | 1 | common |
-| Mana potion| 1d4  | 2 | common |
-| Mana potion (greater)| 2d3 | 4 | uncommon |
-| Mana potion (superior)| 2d4 | 6 | rare |
-| Mana potion (supreme)| 2d6 | 8 | very rare |
-| Mana potion (mystic)| 2d8 | 10 | legendary |
-}}
-
-#### Moonsilver vial (adularescence)
-*potion, common*
-:
-A vial of silver, adularescent liquid. 
-:
-Drinking it eats away at your life force that catalyzes it into mystical energy. As a bonus action, you consume the vial, and take 3d4 necrotic damage, and regain a number of spell slots, which have a combined level that is equal to or less than 1d3+1 worth of spell levels.
-
-#### apothecary's vial
-*potion, common*
-:
-A swirling mix of crimson and burgundy fluids. The apothecary's vial can be administered up to 3 times. It has 3 uses.
-:
-The apothecary's vial can be used in place of a healer's kit. When you stabilize a creature with the vial, they additionally restore 1d6 hitpoints.
-:
-*higher rarities*: As an uncommon item, this restores 3d6 hitpoints. As a rare item, it restores 5d6 hitpoints.
-
-{{pageNumber,auto}}
 
 
 
