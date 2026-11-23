@@ -32,14 +32,23 @@ ___
 
 \page
 
+# this is the everything book.
+Welcome, travellers from afar. Thank you for playing in a twinachino campaign. Below is content that is used in all of my campaigns, though not all of it will be made avaliable at once. Consider this a compendium for all my homebrew.
+
+
 {{toc,wide
 # Contents
 
-- ### [{{ this is the everything book.}}{{ 4}}](#p4)
-- #### [{{ usage of custom features}}{{ 4}}](#p4)
+- ### [{{ usage of custom features}}{{ 5}}](#p4)
 - ### [{{ new conditions}}{{ 5}}](#p5)
 - #### [{{ spell (and other) buffs}}{{ 5}}](#p5)
-- ## [{{ part: 1}}{{ 6}}](#p6)
+- #### [{{ coated with acid}}{{ 5}}](#p5)
+- #### [{{ off balance}}{{ 5}}](#p5)
+- #### [{{ class specific conditions}}{{ 5}}](#p5)
+  - [{{ shadowflame}}{{ 5}}](#p5)
+  - [{{ Hollow projection}}{{ 5}}](#p5)
+  - [{{ brimstone flames}}{{ 5}}](#p5)
+- ### [{{ part: 1}}{{ 6}}](#p6)
 - ### [{{ new spells by class}}{{ 7}}](#p7)
 - #### [{{ ranger….}}{{ 7}}](#p7)
 - #### [{{ druid}}{{ 7}}](#p7)
@@ -54,57 +63,38 @@ ___
 - #### [{{ Ranger: Elemental arrows}}{{ 9}}](#p9)
 - #### [{{ druid spells}}{{ 10}}](#p10)
 - #### [{{ bard spells}}{{ 11}}](#p11)
-- #### [{{ Wizard / sorcerer spells}}{{ 11}}](#p11)
-- #### [{{ warlock spells}}{{ 11}}](#p11)
-- #### [{{ artificer: Hollow projections}}{{ 12}}](#p12)
-- ## [{{ part: 2}}{{ 13}}](#p13)
-- ### [{{ martials like good feats}}{{ 14}}](#p14)
-- #### [{{ feat scaling?}}{{ 14}}](#p14)
-- #### [{{ fighting styles}}{{ 14}}](#p14)
-  - [{{ magus}}{{ 14}}](#p14)
-  - [{{ focused aim}}{{ 14}}](#p14)
-- #### [{{ rogue-style feats}}{{ 14}}](#p14)
-  - [{{ Lethal accuracy}}{{ 14}}](#p14)
-  - [{{ Dextrous}}{{ 14}}](#p14)
-  - [{{ Critical disaster}}{{ 14}}](#p14)
-- #### [{{ monk / druid feats}}{{ 15}}](#p15)
-  - [{{ Martial artist}}{{ 15}}](#p15)
-  - [{{ Elemental attunement}}{{ 15}}](#p15)
-- #### [{{ general martial feats}}{{ 15}}](#p15)
-  - [{{ weapon expert}}{{ 15}}](#p15)
-  - [{{ paragon of power}}{{ 15}}](#p15)
-- #### [{{ warlock feats}}{{ 16}}](#p16)
-  - [{{ Pact magician}}{{ 16}}](#p16)
-  - [{{ fractalizing magic}}{{ 16}}](#p16)
-- #### [{{ apprentice feats}}{{ 16}}](#p16)
-  - [{{ assassin’s apprentice}}{{ 16}}](#p16)
-  - [{{ monk’s apprentice}}{{ 16}}](#p16)
-- ### [{{ New invocations}}{{ 17}}](#p17)
-- #### [{{ level 1}}{{ 17}}](#p17)
-- #### [{{ level 2}}{{ 17}}](#p17)
-- #### [{{ level 5}}{{ 17}}](#p17)
-- #### [{{ level 7}}{{ 17}}](#p17)
-- #### [{{ level 9}}{{ 17}}](#p17)
-- ## [{{ part: 3}}{{ 18}}](#p18)
-- ### [{{ new class features}}{{ 19}}](#p19)
-- #### [{{ design commentary}}{{ 19}}](#p19)
-- #### [{{ rogue}}{{ 20}}](#p20)
-  - [{{ level 5: improved critical}}{{ 20}}](#p20)
-  - [{{ level 5: sneak attack die [in use]}}{{ 20}}](#p20)
-  - [{{ level 6: ASI [in use]}}{{ 20}}](#p20)
-  - [{{ level 5: Criticality}}{{ 20}}](#p20)
-- #### [{{ warlock}}{{ 20}}](#p20)
-  - [{{ level 1: beshadowed blast}}{{ 20}}](#p20)
-- #### [{{ bard}}{{ 20}}](#p20)
-  - [{{ level 1: bardic inspiration [in use]}}{{ 20}}](#p20)
-  - [{{ level 2: song of rest [in use]}}{{ 20}}](#p20)
-- #### [{{ fighter}}{{ 20}}](#p20)
-  - [{{ level 2: martial champion [in use]}}{{ 20}}](#p20)
-  - [{{ level 1: master of arms}}{{ 20}}](#p20)
-- #### [{{ ranger}}{{ 20}}](#p20)
-  - [{{ Level 1: Favored Enemy}}{{ 20}}](#p20)
-  - [{{ level 2: elemental quiver}}{{ 20}}](#p20)
-- ## [{{ part: 4 (WIP past here)}}{{ 21}}](#p21)
+- #### [{{ Wizard spells}}{{ 12}}](#p12)
+- #### [{{ warlock spells}}{{ 12}}](#p12)
+- #### [{{ artificer: Hollow projections}}{{ 13}}](#p13)
+- ### [{{ part: 2}}{{ 14}}](#p14)
+- ### [{{ martials like good feats}}{{ 15}}](#p15)
+- #### [{{ feat scaling?}}{{ 15}}](#p15)
+- #### [{{ fighting styles}}{{ 15}}](#p15)
+  - [{{ magus}}{{ 15}}](#p15)
+  - [{{ focused aim}}{{ 15}}](#p15)
+- #### [{{ rogue-style feats}}{{ 15}}](#p15)
+  - [{{ Lethal accuracy}}{{ 15}}](#p15)
+  - [{{ Dextrous}}{{ 15}}](#p15)
+  - [{{ Critical disaster}}{{ 15}}](#p15)
+- #### [{{ monk / druid feats}}{{ 16}}](#p16)
+  - [{{ Martial artist}}{{ 16}}](#p16)
+  - [{{ Elemental attunement}}{{ 16}}](#p16)
+- #### [{{ general martial feats}}{{ 16}}](#p16)
+  - [{{ weapon expert}}{{ 16}}](#p16)
+  - [{{ paragon of power}}{{ 16}}](#p16)
+- #### [{{ warlock feats}}{{ 17}}](#p17)
+  - [{{ Pact magician}}{{ 17}}](#p17)
+  - [{{ fractalizing magic}}{{ 17}}](#p17)
+- #### [{{ apprentice feats}}{{ 17}}](#p17)
+  - [{{ assassin’s apprentice}}{{ 17}}](#p17)
+  - [{{ monk’s apprentice}}{{ 17}}](#p17)
+- ### [{{ New invocations}}{{ 18}}](#p18)
+- #### [{{ level 1}}{{ 18}}](#p18)
+- #### [{{ level 2}}{{ 18}}](#p18)
+- #### [{{ level 5}}{{ 18}}](#p18)
+- #### [{{ level 7}}{{ 18}}](#p18)
+- #### [{{ level 9}}{{ 18}}](#p18)
+
 }}
 
 
@@ -112,10 +102,61 @@ ___
 \page
 
 
-# this is the everything book.
-Welcome, travellers from afar. Thank you for playing in a twinachino campaign. Below is content that is used in all of my campaigns, though not all of it will be made avaliable at once. Consider this a compendium for all my homebrew.
+{{toc,wide
+# Contents
 
-### usage of custom features
+- ### [{{ part: 3}}{{ 20}}](#p20)
+- ### [{{ new class features}}{{ 21}}](#p21)
+- #### [{{ design commentary}}{{ 21}}](#p21)
+  - [{{ warlock}}{{ 21}}](#p21)
+  - [{{ bard}}{{ 21}}](#p21)
+  - [{{ fighter}}{{ 21}}](#p21)
+  - [{{ ranger}}{{ 21}}](#p21)
+  - [{{ rogue}}{{ 21}}](#p21)
+- #### [{{ rogue}}{{ 22}}](#p22)
+  - [{{ level 5: improved critical}}{{ 22}}](#p22)
+  - [{{ level 5: sneak attack die [in use]}}{{ 22}}](#p22)
+  - [{{ level 6: ASI [in use]}}{{ 22}}](#p22)
+  - [{{ level 9: Criticality [in use]}}{{ 22}}](#p22)
+- #### [{{ warlock}}{{ 22}}](#p22)
+  - [{{ level 1: beshadowed blast}}{{ 22}}](#p22)
+- #### [{{ bard}}{{ 22}}](#p22)
+  - [{{ level 1: bardic inspiration [in use]}}{{ 22}}](#p22)
+  - [{{ level 2: song of rest [in use]}}{{ 22}}](#p22)
+- #### [{{ fighter}}{{ 22}}](#p22)
+  - [{{ Champion level 3: martial champion [in use]}}{{ 22}}](#p22)
+  - [{{ level 5: master of arms [in use]}}{{ 22}}](#p22)
+- #### [{{ ranger}}{{ 22}}](#p22)
+  - [{{ Level 1: Favored Enemy}}{{ 22}}](#p22)
+  - [{{ level 2: elemental quiver}}{{ 22}}](#p22)
+- ### [{{ part: 4}}{{ 23}}](#p23)
+- ### [{{ commentary: the psion of 2024}}{{ 24}}](#p24)
+- ### [{{ psion class features}}{{ 26}}](#p26)
+  - [{{ energy dice progression}}{{ 26}}](#p26)
+  - [{{ level 2: psionic restoration}}{{ 26}}](#p26)
+  - [{{ level 1: psionic power}}{{ 26}}](#p26)
+  - [{{ level 7: stillness of mind}}{{ 26}}](#p26)
+- #### [{{ psykinetic}}{{ 27}}](#p27)
+  - [{{ level 6: rebounding shield}}{{ 27}}](#p27)
+  - [{{ level 10: enhanced telekinetic crush}}{{ 27}}](#p27)
+  - [{{ level 14: heightened telekineses}}{{ 27}}](#p27)
+  - [{{ level 14: Destructive mode}}{{ 27}}](#p27)
+- #### [{{ telepath}}{{ 27}}](#p27)
+  - [{{ level 3: Mind infiltrator}}{{ 27}}](#p27)
+  - [{{ level 6: Potent thoughts}}{{ 27}}](#p27)
+- #### [{{ metamorph}}{{ 27}}](#p27)
+  - [{{ level 3: Morphic shell}}{{ 27}}](#p27)
+  - [{{ level 3: organic weapons}}{{ 27}}](#p27)
+- ### [{{ psionic spells}}{{ 28}}](#p28)
+}}
+
+
+
+{{pageNumber,auto}}
+\page
+
+
+# usage of custom features
 The usage of anything within this book depends entirely on an agreement between player and Dm.
 
 #### New conditions
@@ -1034,7 +1075,7 @@ If you have an elemental arrow spell prepared, you can cast that spell using a n
 {{partCover}}
 
 # part: 4
-## psion (WIP)
+## the psion
 
 ___
 
@@ -1044,11 +1085,11 @@ ___
 
 \page
 
-# the psion of 2024
+# commentary: the psion of 2024
 
 I 'm not the biggest fan of 2024 UA psion. Their multiple-scaling dice mechanic is cool, but ultimately, they still feel too similar to their other d6 caster counterparts - sorcerer and wizard. Whatever the case, the UA psion is a class that is allowed to be used in this campaign, but I am still considering alternative implementations of this class that are better designed and more mechanically distinct.
 
-## class features
+## commentary: class features
 The 2024 psion's class features are a little all over the place, but it's entirely rescuable. Certain features will be tweaked slightly, and additional small features will be added, to make class progression more satisfying. The psion has very poor resource economy, the class is constantly starved for resources - having to spend multiple resources just to achieve one outcome. Their subclasses show this clearly: an entire subclass feature, that still requires consuming spell slots and psionic energy die. 
 
 #### energy dice progression
@@ -1059,23 +1100,25 @@ Reworked to be the psion equivalent of the 2024 monk’s Focus recovery: it rest
 #### psionic power
 Psions are starved for their psionic energy die. Tying their level 1 core features to a random roll on a dice - one of your very few dice, by the way, seems like too many steps for little reward. Telepathy has been standrdized to level x 10, *for free*, and telekinetic propel is enhanced so it can be used as an action or bonus action, and the dice roll's push now scales with your PB.
 
-#### sitllness of mind
-The OG monk's stillness of mind. Buffed so now you can just end the effect at the start of the turn. bard's countercharm got buffed, these two features are very similar at the same level.
 \column
-
-### new spells (psionic spells)
-With many of these campaign settings including users of psionics, these are some additional abilities avaliable to them. Currently, these are made to resemble spells, but may be moved into their own system later, depending on which iteration of the psion or mystic class is being used during a campaign. They're not reliant on 24 UA psion.
-
-#### combat capabilities
-Most of these are options designed to enhance their combat capabilities. They are quite powerful, offering good damage and strong control, but they never get a fireball-level of raw power. They should get something in their psionic niche, like disrupting concentration, exploiting the weak *intelligence* save, or inflicting madness. 
-
-### psionic disciplines
+#### psionic disciplines
 Honestly all pretty cool, only 1or 2 need real reworking to become actually viable choices. Also, 
 
 Whenever you gain a Psion level, you can replace
 one of your Psionic Discipline options with one you
 don’t know. You gain one additional option at Psion
 levels 5, **9** (original, 10), 13, and 17. level 10 is already a subclass feature level.
+
+#### sitllness of mind
+The OG monk's stillness of mind. Buffed so now you can just end the effect at the start of the turn. bard's countercharm got buffed, these two features are very similar at the same level.
+
+### commentary: new spells (psionic spells)
+With many of these campaign settings including users of psionics, these are some additional abilities avaliable to them. Currently, these are made to resemble spells, but may be moved into their own system later, depending on which iteration of the psion or mystic class is being used during a campaign. They're not reliant on 24 UA psion.
+
+#### combat capabilities
+Most of these are options designed to enhance their combat capabilities. They are quite powerful, offering good damage and strong control, but they never get a fireball-level of raw power. They should get something in their psionic niche, like disrupting concentration, exploiting the weak *intelligence* save, or inflicting madness. 
+
+
 
 
 \page
