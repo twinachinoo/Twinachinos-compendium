@@ -1052,11 +1052,14 @@ ___
 
 # the psion of 2024
 
-I'm not the biggest fan of 2024 UA psion. Their multiple-scaling dice mechanic is cool, but ultimately, they still feel too similar to their other d6 caster counterparts - sorcerer and wizard. Whatever the case, the UA psion is a class that is allowed to be used in this campaign, but I am still considering alternative implementations of this class that are better designed and more mechanically distinct.
+I 'm not the biggest fan of 2024 UA psion. Their multiple-scaling dice mechanic is cool, but ultimately, they still feel too similar to their other d6 caster counterparts - sorcerer and wizard. Whatever the case, the UA psion is a class that is allowed to be used in this campaign, but I am still considering alternative implementations of this class that are better designed and more mechanically distinct.
 
 ## class features
-The 2024 psion's class features are a little all over the place, but it's entirely rescuable. Certain features will be tweaked slightly, and additional small features will be added, to make class progression more satisfying. The psion has very poor resource economy, the class is constantly starved for resources - having to spend multiple resources just to achieve one outcome. As a psion gains levels, certain psionic techniques should be cognitively trivial for a master of the mind.
-:
+The 2024 psion's class features are a little all over the place, but it's entirely rescuable. Certain features will be tweaked slightly, and additional small features will be added, to make class progression more satisfying. The psion has very poor resource economy, the class is constantly starved for resources - having to spend multiple resources just to achieve one outcome. Their subclasses show this clearly: an entire subclass feature, that still requires consuming spell slots and psionic energy die. 
+
+
+#### energy dice progression
+The existing progression is a bit awkward. I get what they were going for, but is it really that hard to design a linear increase in resources gained? Now it's a smooth progression where either: dice size increases, or you gain more dice. Instead of some levels having both, and others having nothing, leading to a very strange levelling pattern. **they do not gain any more dice than vanilla, just gain them earlier de to this pattern.** 
 #### psionic restoration
 Reworked to be the psion equivalent of the 2024 monk’s Focus recovery: it restores only expended Psionic Energy Dice, not spell slots. It should come online early, at level 2. A small amount of healing also helps the class’s d6 hit dice.
 
@@ -1065,27 +1068,74 @@ Psions are starved for their psionic energy die. Tying their level 1 core featur
 
 \column
 
-### subclass features
-The psion's subclasses are designed...very awkwardly. They often design features around needing to consume spell slots and psionic energy die - which is a full subclass feature, a spell slot, and a psionic energy die, to do one thing. Again, resource cost and economy.
-#### psykinetic: level 6: rebounding shield
-A 6th level subclass feature built on a 1st level spell. This is now a **3rd level subclass feature**, and they recieve a new feature at level 6 - **Psionic siege**, that allows them to break objects (notoriously hard with psychic damage) or bypass psychic damage resistance, increasing their DPR indirectly.
-
-#### psykinetic: level 10: enhanced telekinetic crush
-This is a 10th level feature that enhances a middling 3rd level spell. It's not great. This feature now grants them the ability to cast it once per long rest.
-
-#### telepath: level 3: mind infiltrator
-This costs a full 2nd level spell slot and a psionic energy die. And that's the entire subclass feature. Are we noticing a pattern? detect thoughts is a great spell, but a subclass dedicated to telepathy should be able to do it at little cost.
-
-#### metamorph: level 3: Psychic shell
-This is just draconic sorcerer's unarmored defense feature, on a subclass that really, really needs defenses. I've chosen to omit giving them hitpoints as they gain temporary ones via their other class features and spells.
-
 ### new spells (psionic spells)
 With many of these campaign settings including users of psionics, these are some additional abilities avaliable to them. Currently, these are made to resemble spells, but may be moved into their own system later, depending on which iteration of the psion or mystic class is being used during a campaign.
 
 #### combat capabilities
 Most of these are options designed to enhance their combat capabilities. They are quite powerful, offering good damage and strong control, but they never get a fireball-level of raw power. They should get something in their psionic niche, like disrupting concentration, exploiting the weak *intelligence* save, or inflicting madness. 
 \page
+
+# subclass features
+
+### psykinetic
+The psykinetic's subclass features are awkward, convoluted modifications of existing spells. Now, they all follow the same principle: you can cast x spell with y number of dice, and the y number of dice are rolled to enhance the spell, instead of purely being a cost. Furthermore, they get a genuinely good second capstone at level 14.
+:
+these subclass features relied on spells two spell levels lower than the psion had access to at that level. So if you're really casting a low level spell at that point, it better be worth it. A **major appeal is they're cheapter to cast with dice**, telekinetic crush is a 3rd level spell cast with 2 die, and telekinesis is a 5th level spell costing 4 dice to cast. Efficient.
+
+#### level 3: rebounding shield
+A 6th level subclass feature built on a 1st level spell. This is now a **3rd level subclass feature**. The original rebounding shield had you casting shield, the attacker take some damage, and you gain temporary hitpoints. absolutely insane. Net nerf, but gained earlier.
+
+#### level 6: enhanced telekinetic crush
+This is a 10th level feature that enhances a middling 3rd level spell. It's not great. Now, the one of the two dice you roll to cast the spell in place of the spell slot *are directly added to the damage of the spell*. It really needs this to barely compete with fireball. It does make it comparatively cheaper - (2 dice vs 3rd level slot). This is intended.
+
+#### level 10: heightened telekinesis
+The spell the subclass is basically all about, gained 4 levels earlier so you might actually get to use it. It just lets you cast a slightly better telekinesis for a cheaper cost (4 energy vs a 5th level slot). Telekinesis is a good enough base spell that I don't really care.
+
+#### level 14: new subclass feature
+Now that their capstone is gone, what do we give them? How about permenant destructive state? Permenant flight, and an additional energy die on all of their damage. An appreciated buff, and a simple capstone.
+
+\column
+
+### telepath
+Overral decent, some features changed to reduce psionic energy die overreliance. And since their base telepathy is better, their 6th level feature simply buffs it.
+
+#### level 3: mind infiltrator
+This costs a full 2nd level spell slot and a psionic energy die. And that's the entire subclass feature. Are we noticing a pattern? detect thoughts is a great spell, but a subclass dedicated to telepathy should be able to do it at little cost.
+
+#### level 6: Potent thoughts
+just adds +60feet to your telepathy. Again, already gain base telepathy for free.
+
+### metamorph
+just needs more surviability.
+Literally just took draconic sorcerer's AC calculation. I've chosen to refrain from also giving hitpoints, as their other features grant Temp. HP.
+
+#### metamorph: level 3: Morphic shell
+Said above.
+
+
+
+\page
+
+
 ## psion class features
+
+### energy dice progression
+
+{{darkHeader
+
+| level| energy dice| 
+|:---|:---:|
+| 1-2| 4d6 |
+| 3-4 | 6d6  | common |
+| 5-6| 6d8 | 
+| 7-8 | 8d8 | 
+| 9-10 | 10d8 | 
+|11-12| 10d10 |
+|13-14| 11d10|
+|15-16| 12d10|
+|17+ |12d12|
+
+}}
 
 ### level 2: psionic restoration
 
@@ -1110,24 +1160,53 @@ and the distance moved equals 5 times your proficiency bonus. The die is expende
 **Telepathic Connection.** You have telepathy with a
 range of feet equal to 10 times your psion level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.
 
+\page
+
+## psykinetic
+### level 6: rebounding shield
+
+You can cast telekinetic crush without expending a spell
+slot by instead expending a Psionic Energy Dice. When you cast shield without expending a spell slot using this feature, you can modify the spell so that you launch the
+force back at the attacker. The attacker makes a
+Dexterity saving throw. Roll the Psionic Energy Die.
+On a failed save, the attacker takes Force damage
+equal to the amount rolled plus your Intelligence
+modifier, and half as much on a success. 
+
+### level 10: enhanced telekinetic crush
+You can cast telekinetic crush without expending a spell
+slot by instead expending two Psionic Energy Dice. When you cast telekinetic crush without expending a spell slot using this feature, you can modify the spell so that
+whether a creature fails or succeeds on the saving
+throw against the spell, its Speed is halved until the
+start of your next turn. In addition, you can roll the two
+expended Psionic Energy Dice and add the number rolled to the spell's damage roll.
+
+### level 14: heightened telekineses
+You can cast Telekinesis without expending a spell
+slot by instead expending four Psionic Energy Dice.
+When you cast Telekinesis without expending a spell
+slot using this feature, you can modify the spell so
+that it doesn’t require Concentration. If you do so,
+the spell’s duration becomes 1 minute for that
+casting, and and you can target Gargantuan creatures
+and objects.
+
+### level 14: Destructive mode
+You no longer need to expend an energy die to enter a destructive state. The benefits of that state are conferred to you permenantly.
+
 \column
-
-## subclass features
-
-### Psykinetic: level 3: rebounding shield
-*originally a 6th level feature for the psykinetic, now a 3rd level feature.*
-
-### Psykinetic: level 6: Psionic siege
-Your psionic power can now concentrate into physical harm. When you deal psychic damage to a creature or object, you can instead choose to deal that damage in the force of *bludgeoning damage* that is considered magical.
-
-### Psykinetic: level 10: enhanced telekinetic crush
-You can cast the spell *telekinetic crush* it once without expending a spell slot. You can't do so again this way until you finish a long rest.
-
-### telepath:  level 3: Mind infiltrator
+### telepath
+#### level 3: Mind infiltrator
 You can cast the spell *detect thoughts* without expending a spell slot a number of times equal to your proficiency bonus, and regain all uses when you finish a long rest.
 
-### metamorph: level 3: Psychic shell
-Your skin hums with psionic energy, protecting you incoming attacks with an invisible barrier. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.
+#### level 6: Potent thoughts
+The range of your telepathy increases by 60 feet. In
+addition, you add your Intelligence modifier to the
+damage you deal with any Psion cantrip.
+
+### metamorph
+#### metamorph: level 3: Morphic shell
+Your skin hums with psionic energy, protecting you incoming attacks with an invisible barrier. While you aren’t wearing armor, your base Armor Class equals 10 plus your Dexterity and intelligence modifiers.
 
 
 \page
@@ -1137,12 +1216,13 @@ Your skin hums with psionic energy, protecting you incoming attacks with an invi
 *5th level enchantment (psion)*
 
 **Casting Time:** :: 1 Action
-**Range:**        :: 90ft
+**Range:**        :: 60ft
 **Components:**   :: S
 **Duration:**     :: Instantaneous
 
-You send a shimmering psychic needle through the mind of a creature you can see within range. The creature loses concentration instantly on a spell or similar effect, and must make an intelligence saving throw. On a failed save, they take 5d10 psychic damage or half as much on a successful one.
-
+You send a shimmering psychic needle through the mind of a creature you can see within range. The creature must make an intelligence saving throw. On a failed save, they take 5d10+5 psychic damage. 
+:
+If the creature was concentrating on a spell, their concentration is broken instantly. In addition, on a failed save, you maximise the damage dealt by this spell.
 
 #### psychic storm
 *4th level enchantment (psion)*
@@ -1159,7 +1239,7 @@ At the end of subsequent turns, the creature can remake the saving throw. On a s
 \column
 
 #### psychequake
-*6th level evocation (psion)*
+*6th level transmutation (psion)*
 
 **Casting Time:** :: 1 Action
 **Range:**        :: self (60ft radius)
@@ -1169,3 +1249,16 @@ At the end of subsequent turns, the creature can remake the saving throw. On a s
 You send psionic shockwaves into the ground beneath, resonating with tectonic movements in a 60ft radius originating from you. For the duration of the spell (which you can end at any time), the ground is considered difficult terrain. 
 :
 When a creature enters the area, or begins their turn within it, they must make a strength saving throw or be forced *off balance* due to the shockwaves underneath their feet.
+
+#### Chain psyche
+*4th level evocation (psion)*
+
+**Casting Time:** :: 1 Action
+**Range:**        :: special
+**Components:**   :: S
+**Duration:**     :: Instantaneous
+
+A brilliant flash of crackling, violet psionic lightning arcs from your mind towards a creature within 60ft, before it leaps to another creature of your choice within 60ft of the first. It can leap this way to up to four additional creatures. 
+:
+Each creature must make an intelligence saving throw, or take 5d8 psychic damage, or half as much on a successful save.
+
